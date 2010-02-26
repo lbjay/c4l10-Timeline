@@ -1,20 +1,21 @@
+#!/usr/bin/env python
 
 import sys
 import re
 from rdflib import ConjunctiveGraph, Literal, URIRef
 import lxml
 from datetime import datetime
-from namespaces import *
+import namespaces as ns
 
 base_uri = 'http://irc.code4lib.org/'
 
-g = rdflib.ConjunctiveGraph('Sleepycat')
-g.open('store', create=True)
+#g = rdflib.ConjunctiveGraph('Sleepycat')
+#g.open('store', create=True)
 
-preconfs = [
+events = [
     ('Registration / coffee', 
      datetime.datetime(2010, 2, 22, 8, 0),
-     datetime.datetime(2010, 2, 22, 9, 0)),
+     datetime.datetime(2010, 2, 22, 9, 0), None),
     ('Morning Sessions', 
      datetime.datetime(2010, 2, 22, 9, 0),
      datetime.datetime(2010, 2, 22, 12, 0)),
@@ -24,6 +25,7 @@ preconfs = [
     ('Afternoon Sessions', 
      datetime.datetime(2010, 2, 22, 13, 30),
      datetime.datetime(2010, 2, 22, 16, 30)),
+
     ('Registration / Breakfast',
      datetime.datetime(2010, 2, 23, 8, 0),
      datetime.datetime(2010, 2, 23, 9, 0)),
@@ -44,8 +46,7 @@ preconfs = [
      '/conference/2010/singer'),
     ('Break',
      datetime.datetime(2010, 2, 23, 10, 40),
-     datetime.datetime(2010, 2, 23, 11, 0),
-     '/conference/2010/dekker'),
+     datetime.datetime(2010, 2, 23, 11, 0), None),
     ('Do It Yourself Cloud Computing with Apache and R'
      datetime.datetime(2010, 2, 23, 11, 0),
      datetime.datetime(2010, 2, 23, 11, 20),
@@ -58,19 +59,141 @@ preconfs = [
      datetime.datetime(2010, 2, 23, 11, 40),
      datetime.datetime(2010, 2, 23, 12, 0),
      '/conference/2010/frumkin_reese'),
+    ('Lunch',
+     datetime.datetime(2010, 2, 23, 12, 0),
+     datetime.datetime(2010, 2, 23, 13, 0), None),
+    ('Taking Control of Library Metadata and Websites Using the eXtensible Catalog',
+     datetime.datetime(2010, 2, 23, 13, 0),
+     datetime.datetime(2010, 2, 23, 13, 20),
+     '/conference/2010/bowen'),
+    ('Matching Dirty Data – Yet Another Wheel',
+     datetime.datetime(2010, 2, 23, 13, 20),
+     datetime.datetime(2010, 2, 23, 13, 40),
+     '/conference/2010/young_sherwood'),
+    ('HIVE: A New Tool for Working With Vocabularies',
+     datetime.datetime(2010, 2, 23, 13, 40),
+     datetime.datetime(2010, 2, 23, 14, 0),
+     '/conference/2010/scherle_aguera'),
+    ('Metadata Editing – A Truly Extensible Solution',
+     datetime.datetime(2010, 2, 23, 14, 0),
+     datetime.datetime(2010, 2, 23, 14, 20),
+     '/conference/2010/kennedy_chandek-stark'),
+    ('Break',
+     datetime.datetime(2010, 2, 23, 14, 20),
+     datetime.datetime(2010, 2, 23, 14, 40), None),
+    ('Lightning Talks 1',
+     datetime.datetime(2010, 2, 23, 14, 40),
+     datetime.datetime(2010, 2, 23, 15, 50), None),
+    ('Breakout Sessions 1',
+     datetime.datetime(2010, 2, 23, 15, 50),
+     datetime.datetime(2010, 2, 23, 17, 0), None),
+    ('Daily Wrap Up',
+     datetime.datetime(2010, 2, 23, 17, 0),
+     datetime.datetime(2010, 2, 23, 17, 15), None),
 
+    ('Breakfast',
+     datetime.datetime(2010, 2, 24, 8, 0),
+     datetime.datetime(2010, 2, 24, 9, 0), None),
+    ('Housekeeping / Intros',
+     datetime.datetime(2010, 2, 24, 9, 0),
+     datetime.datetime(2010, 2, 24, 9, 15), None),
+    ('Iterative Development Done Simply',
+     datetime.datetime(2010, 2, 24, 9, 15),
+     datetime.datetime(2010, 2, 24, 9, 35),
+     '/conference/2010/lynema'),
+    ('Vampires vs. Werewolves: Ending the War Between Developers and Sysadmins with Puppet',
+     datetime.datetime(2010, 2, 24, 9, 35),
+     datetime.datetime(2010, 2, 24, 9, 55),
+     '/conference/2010/sadler'),
+    ('I Am Not Your Mother: Write Your Test Code'.
+     datetime.datetime(2010, 2, 24, 9, 55),
+     datetime.datetime(2010, 2, 24, 10, 15),
+     '/conference/2010/dushay_mene_keck'),
+    ('Break',
+     datetime.datetime(2010, 2, 24, 10, 15),
+     datetime.datetime(2010, 2, 24, 10, 35), None),
+    ('Media, Blacklight, and Viewers Like You',
+     datetime.datetime(2010, 2, 24, 10, 35),
+     datetime.datetime(2010, 2, 24, 10, 55),
+     '/conference/2010/beer'),
+    ('Becoming Truly Innovative: Migrating from Millennium to Koha',
+     datetime.datetime(2010, 2, 24, 10, 55),
+     datetime.datetime(2010, 2, 24, 11, 15),
+     '/conference/2010/beer'),
+    ('Ask Anything!',
+     datetime.datetime(2010, 2, 24, 11, 15),
+     datetime.datetime(2010, 2, 24, 12, 0),
+     '/conference/2010/chudnov'),
+    ('Lunch',
+     datetime.datetime(2010, 2, 24, 12, 0),
+     datetime.datetime(2010, 2, 24, 13, 0), None),
+    ('A Better Advanced Search',
+     datetime.datetime(2010, 2, 24, 13, 0),
+     datetime.datetime(2010, 2, 24, 13, 20),
+     '/conference/2010/dushay_keck'),
+    ('Drupal 7: A more powerful platform for building library applications',
+     datetime.datetime(2010, 2, 24, 13, 20),
+     datetime.datetime(2010, 2, 24, 13, 40),
+     '/conference/2010/gordon'),
+    ('Enhancing Discoverability With Virtual Shelf Browse',
+     datetime.datetime(2010, 2, 24, 13, 40),
+     datetime.datetime(2010, 2, 24, 14, 0),
+     '/conference/2010/orphanides_lown_lynema'),
+    ('How to Implement A Virtual Bookshelf With Solr',
+     datetime.datetime(2010, 2, 24, 14, 0),
+     datetime.datetime(2010, 2, 24, 14, 20),
+     '/conference/2010/dushay_keck'),
+    ('Break',
+     datetime.datetime(2010, 2, 24, 14, 20),
+     datetime.datetime(2010, 2, 24, 14, 40), None),
+    ('Lightning Talks 2',
+     datetime.datetime(2010, 2, 24, 14, 40),
+     datetime.datetime(2010, 2, 24, 15, 50), None),
+    ('Breakout Sessions 2',
+     datetime.datetime(2010, 2, 24, 15, 50),
+     datetime.datetime(2010, 2, 24, 17, 0), None),
+    ('Daily Wrap Up',
+     datetime.datetime(2010, 2, 24, 17, 0),
+     datetime.datetime(2010, 2, 24, 17, 15), None),
+
+    ('Breakfast',
+     datetime.datetime(2010, 2, 25, 8, 0),
+     datetime.datetime(2010, 2, 25, 9, 0), None),
+    ('Housekeeping',
+     datetime.datetime(2010, 2, 25, 9, 0),
+     datetime.datetime(2010, 2, 25, 9, 15), None),
+    ('Keynote #2: Paul Jones',
+     datetime.datetime(2010, 2, 25, 9, 15),
+     datetime.datetime(2010, 2, 25, 10, 0),
+     '/conference/2010/marshall'),
+    ('Break',
+     datetime.datetime(2010, 2, 25, 10, 0),
+     datetime.datetime(2010, 2, 25, 10, 15), None),
+    ('Lightning Talks 3',
+     datetime.datetime(2010, 2, 25, 10, 15),
+     datetime.datetime(2010, 2, 25, 11, 0), None),
+    ('You Either Surf or You Fight: Integrating Library Services With Google Wave',
+     datetime.datetime(2010, 2, 25, 11, 0),
+     datetime.datetime(2010, 2, 25, 11, 20),
+     '/conference/2010/hannan'),
+    ('library/mobile: Developing a Mobile Catalog',
+     datetime.datetime(2010, 2, 25, 11, 20),
+     datetime.datetime(2010, 2, 25, 11, 40),
+     '/conference/2010/griggs'),
+    ('Mobile Web App Design: Getting Started',
+     datetime.datetime(2010, 2, 25, 11, 40),
+     datetime.datetime(2010, 2, 25, 12, 0),
+     '/conference/2010/doran'),
+    ('Wrap-Up',
+     datetime.datetime(2010, 2, 25, 12, 0),
+     datetime.datetime(2010, 2, 25, 12, 15), None),
 ]
 
 if __name__ == '__main__':
-    parser = etree.HtmlParser()
-    tree = etree.parse('data/schedule.html', parser)
-    confdays = tree.findall('dl[@class="day"]')
-    events = confday.findall('dt[@class="vevent"]')
-    for e in events:
-        startstring = e.find('abbr[@class="dtstart"]').attrib['title']
-        endstring = e.find('abbr[@class="dtend"]').attrib['title']
-        summary = e.find('span[@class="summary"]')
-        etuple = (
+    g = ConjunctiveGraph()
+    ns.bind_graph(g)
+    for (title, start, end, uri) in events:
+        print title
             
 
 
