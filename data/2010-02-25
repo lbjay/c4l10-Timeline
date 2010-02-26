@@ -1,0 +1,501 @@
+2010-02-24T19:07:15-05:00 :Janusman!~chatzilla@dhcp146-198.ruv.itesm.mx QUIT :Quit: adios!
+2010-02-24T19:08:13-05:00 :sgwmich!~sgwmich@166.137.8.250 NICK :sgbbq
+2010-02-24T19:08:51-05:00 :corockliff!~chatzilla@64.147.222.241 JOIN :#code4lib
+2010-02-24T19:10:39-05:00 :sgbbq!~sgwmich@166.137.8.250 PRIVMSG #code4lib :mjg_: :P
+2010-02-24T19:13:44-05:00 :ecorrado!~ecorrado@68.115.157.82 PRIVMSG #code4lib :ACTION debating food options ...
+2010-02-24T19:14:14-05:00 :sgbbq!~sgwmich@166.137.8.250 PRIVMSG #code4lib :ecorrado: three letters
+2010-02-24T19:14:16-05:00 :sgbbq!~sgwmich@166.137.8.250 PRIVMSG #code4lib :B
+2010-02-24T19:14:17-05:00 :sgbbq!~sgwmich@166.137.8.250 PRIVMSG #code4lib :B
+2010-02-24T19:14:19-05:00 :pmurray!~irchon@166.193.127.63 JOIN :#code4lib
+2010-02-24T19:14:20-05:00 :sgbbq!~sgwmich@166.137.8.250 PRIVMSG #code4lib :Q
+2010-02-24T19:14:27-05:00 :pmurray!~irchon@166.193.127.63 QUIT :Remote host closed the connection
+2010-02-24T19:14:30-05:00 :eby!~ebyryan@odie.aadl.org PRIVMSG #code4lib :@decide B or B or Q
+2010-02-24T19:14:30-05:00 :zoia!zoia@rc98.net PRIVMSG #code4lib :eby: go with B
+2010-02-24T19:14:44-05:00 :pmurray!~irchon@166.193.127.63 JOIN :#code4lib
+2010-02-24T19:15:05-05:00 :ecorrado!~ecorrado@68.115.157.82 PRIVMSG #code4lib :@rate food hockey
+2010-02-24T19:15:08-05:00 :zoia!zoia@rc98.net PRIVMSG #code4lib :ecorrado: food: 8.6; hockey: 8.7. hockey rocks!
+2010-02-24T19:15:26-05:00 :ecorrado!~ecorrado@68.115.157.82 PRIVMSG #code4lib :seems like it is a close call
+2010-02-24T19:15:32-05:00 :sgbbq!~sgwmich@166.137.8.250 PRIVMSG #code4lib :zoia is canadian eh
+2010-02-24T19:15:34-05:00 :zoia!zoia@rc98.net PRIVMSG #code4lib :sgbbq: Hey...has anyone in here read The Hobbit? I have a big project due on it tomm and I need some BIG major help
+2010-02-24T19:15:35-05:00 :ecorrado!~ecorrado@68.115.157.82 PRIVMSG #code4lib :maybe I should go with food and hockey
+2010-02-24T19:15:55-05:00 :gmcharlt!~gmcharlt@pdpc/support/active/gmcharlt PRIVMSG #code4lib :ACTION wasn't getting how they could be mutually exclusive
+2010-02-24T19:16:09-05:00 :pmurray!~irchon@166.193.127.63 PRIVMSG #code4lib :@decide food or hockey
+2010-02-24T19:16:10-05:00 :zoia!zoia@rc98.net PRIVMSG #code4lib :pmurray: go with food
+2010-02-24T19:16:13-05:00 :sgbbq!~sgwmich@166.137.8.250 PRIVMSG #code4lib :@karma zoia
+2010-02-24T19:16:14-05:00 :zoia!zoia@rc98.net PRIVMSG #code4lib :sgbbq: Karma for "zoia" has been increased 303 times and decreased 74 times for a total karma of 229.
+2010-02-24T19:17:10-05:00 :ecorrado!~ecorrado@68.115.157.82 PRIVMSG #code4lib :@karma ecorrado
+2010-02-24T19:17:10-05:00 :zoia!zoia@rc98.net PRIVMSG #code4lib :ecorrado: Karma for "ecorrado" has been increased 42 times and decreased 1 time for a total karma of 41.
+2010-02-24T19:17:11-05:00 :sgbbq!~sgwmich@166.137.8.250 NICK :sgwmich
+2010-02-24T19:17:19-05:00 :ecorrado!~ecorrado@68.115.157.82 PRIVMSG #code4lib :@karma
+2010-02-24T19:17:20-05:00 :zoia!zoia@rc98.net PRIVMSG #code4lib :ecorrado: Highest karma: "mbklein" (545), "rsinger" (438), and "edsu" (411).  Lowest karma: "iii" (-177), "-" (-39), and "ie" (-37).  You (ecorrado) are ranked 42 out of 4253.
+2010-02-24T19:17:22-05:00 :mjg_!~fircuser@19.sub-97-141-84.myvzw.com PRIVMSG #code4lib :foooooooooood
+2010-02-24T19:17:32-05:00 :eby!~ebyryan@odie.aadl.org PRIVMSG #code4lib :amanda+-
+2010-02-24T19:17:46-05:00 :drekk!~88989378@gateway/web/freenode/x-atrwjqjrzbddhrwx JOIN :#code4lib
+2010-02-24T19:17:54-05:00 :sgwmich!~sgwmich@166.137.8.250 PRIVMSG #code4lib :ecorrado++
+2010-02-24T19:18:09-05:00 :pmurray!~irchon@166.193.127.63 QUIT :Client Quit
+2010-02-24T19:18:45-05:00 :ecorrado!~ecorrado@68.115.157.82 PRIVMSG #code4lib :ACTION is about to wonder from his hotel, through conference hotel, in search of food. anyone interested?
+2010-02-24T19:19:40-05:00 :mjg_!~fircuser@19.sub-97-141-84.myvzw.com PRIVMSG #code4lib :ie-- ie-- ie-- ie-- ie--
+2010-02-24T19:20:02-05:00 :sgwmich!~sgwmich@166.137.8.250 PRIVMSG #code4lib :ACTION is in search of beer--hope the party people left some beerz in the hostility suite
+2010-02-24T19:20:28-05:00 :sgwmich!~sgwmich@166.137.8.250 PRIVMSG #code4lib :ie-- ie-- ie-- ie--
+2010-02-24T19:20:50-05:00 :ecorrado!~ecorrado@68.115.157.82 PRIVMSG #code4lib :ACTION leaves . if anyone wants food, DM  /me on twitter
+2010-02-24T19:20:55-05:00 :sgwmich!~sgwmich@166.137.8.250 QUIT :Quit: Colloquy for iPhone - http://colloquy.mobi
+2010-02-24T19:20:59-05:00 :ecorrado!~ecorrado@68.115.157.82 NICK :edc_fooding
+2010-02-24T19:21:14-05:00 :sgwmich!~sgwmich@166.137.8.250 JOIN :#code4lib
+2010-02-24T19:21:27-05:00 :sgwmich!~sgwmich@166.137.8.250 PRIVMSG #code4lib :ACTION enjoyed the sexual chocolate
+2010-02-24T19:21:42-05:00 :sgwmich!~sgwmich@166.137.8.250 PRIVMSG #code4lib :(beer, that is)
+2010-02-24T19:22:57-05:00 :mjg_!~fircuser@19.sub-97-141-84.myvzw.com PRIVMSG #code4lib :me too.
+2010-02-24T19:23:02-05:00 :mjg_!~fircuser@19.sub-97-141-84.myvzw.com PRIVMSG #code4lib :oh, beer
+2010-02-24T19:23:06-05:00 :sgwmich!~sgwmich@166.137.8.250 PRIVMSG #code4lib :@karma
+2010-02-24T19:23:06-05:00 :zoia!zoia@rc98.net PRIVMSG #code4lib :sgwmich: Highest karma: "mbklein" (545), "rsinger" (438), and "edsu" (411).  Lowest karma: "iii" (-177), "ie" (-46), and "-" (-39).  You (sgwmich) are ranked 91 out of 4254.
+2010-02-24T19:23:10-05:00 :mjg_!~fircuser@19.sub-97-141-84.myvzw.com PRIVMSG #code4lib :well, uhh
+2010-02-24T19:23:20-05:00 :sgwmich!~sgwmich@166.137.8.250 PRIVMSG #code4lib :Beer is good food
+2010-02-24T19:23:48-05:00 :eby!~ebyryan@odie.aadl.org PRIVMSG #code4lib :the tastiest calories
+2010-02-24T19:24:28-05:00 :mjg_!~fircuser@19.sub-97-141-84.myvzw.com PRIVMSG #code4lib :eby--  #  should be here
+2010-02-24T19:24:38-05:00 :edsu!~57526b86@gateway/web/freenode/x-oedlsmjwgvpqzeaq JOIN :#code4lib
+2010-02-24T19:24:46-05:00 :Tokee!~Toke@ip-20-61.bnaa.dk QUIT :Ping timeout: 256 seconds
+2010-02-24T19:25:54-05:00 :eby!~ebyryan@odie.aadl.org PRIVMSG #code4lib :mjg_: if you get the video's up quick enough i'll watch some in mexico next week and pretend i was there
+2010-02-24T19:26:04-05:00 :corockliff!~chatzilla@64.147.222.241 PRIVMSG #code4lib :anyone here planning on hitting jack of the wood later?
+2010-02-24T19:28:26-05:00 :mjg_!~fircuser@19.sub-97-141-84.myvzw.com PRIVMSG #code4lib :I'm headed to the hosp. suite after BBQ.
+2010-02-24T19:28:38-05:00 :corockliff!~chatzilla@64.147.222.241 PRIVMSG #code4lib :@karma
+2010-02-24T19:28:38-05:00 :zoia!zoia@rc98.net PRIVMSG #code4lib :corockliff: Highest karma: "mbklein" (545), "rsinger" (438), and "edsu" (411).  Lowest karma: "iii" (-177), "ie" (-46), and "-" (-39).  You (corockliff) are ranked 91 out of 4254.
+2010-02-24T19:29:35-05:00 :mjg_!~fircuser@19.sub-97-141-84.myvzw.com PRIVMSG #code4lib :Jack of the Wood is a good time.
+2010-02-24T19:30:20-05:00 :corockliff!~chatzilla@64.147.222.241 PRIVMSG #code4lib :glad to hear it.
+2010-02-24T19:36:17-05:00 :mvandenburg!~mvandenbu@conference/code4lib/x-osrmeroqnocygvoz JOIN :#code4lib
+2010-02-24T19:44:09-05:00 :eefcee!~efc@dhcp184-49-90-202.mra.atl.wayport.net PRIVMSG #code4lib :@karma mac
+2010-02-24T19:44:10-05:00 :zoia!zoia@rc98.net PRIVMSG #code4lib :eefcee: Karma for "mac" has been increased 1 time and decreased 1 time for a total karma of 0.
+2010-02-24T19:44:36-05:00 :JMarchesoni!~JMarcheso@adsl-144-107-144.ard.bellsouth.net JOIN :#code4lib
+2010-02-24T19:44:40-05:00 :pjjos!~pjjos@dhcp184-49-90-149.mra.atl.wayport.net JOIN :#code4lib
+2010-02-24T19:45:06-05:00 :pjjos!~pjjos@dhcp184-49-90-149.mra.atl.wayport.net PART #code4lib
+2010-02-24T19:45:22-05:00 :pjjos!~pjjos@dhcp184-49-90-149.mra.atl.wayport.net JOIN :#code4lib
+2010-02-24T19:45:47-05:00 :pjjos!~pjjos@dhcp184-49-90-149.mra.atl.wayport.net QUIT :Client Quit
+2010-02-24T19:46:35-05:00 :michaelpoltorak!~Adium@port745.ds1-arc.adsl.cybercity.dk QUIT :Quit: Leaving.
+2010-02-24T19:48:04-05:00 :eefcee!~efc@dhcp184-49-90-202.mra.atl.wayport.net PRIVMSG #code4lib :@markov beer
+2010-02-24T19:48:05-05:00 :zoia!zoia@rc98.net PRIVMSG #code4lib :eefcee: i find your platform persuasive and would like to be put down for a platform
+2010-02-24T19:48:47-05:00 :phase_bb!~phase_bb@m265e36d0.tmodns.net JOIN :#code4lib
+2010-02-24T19:51:23-05:00 :eefcee!~efc@dhcp184-49-90-202.mra.atl.wayport.net PRIVMSG #code4lib :ACTION wonders
+2010-02-24T19:51:40-05:00 :JMarchesoni!~JMarcheso@adsl-144-107-144.ard.bellsouth.net QUIT :Ping timeout: 265 seconds
+2010-02-24T19:53:02-05:00 :asl2!~asl2@dsl092-130-095.chi1.dsl.speakeasy.net QUIT :Quit: Leaving.
+2010-02-24T19:55:48-05:00 :mvandenburg!~mvandenbu@conference/code4lib/x-osrmeroqnocygvoz PRIVMSG #code4lib :Nice - CAN vs RUS game going well - hospitality suite empty though
+2010-02-24T19:56:43-05:00 :eefcee!~efc@dhcp184-49-90-202.mra.atl.wayport.net PART #code4lib
+2010-02-24T19:57:33-05:00 :eefcee!~efc@dhcp184-49-90-202.mra.atl.wayport.net JOIN :#code4lib
+2010-02-24T20:00:09-05:00 :snail!~stuart@vuwunicoproxy01.vuw.ac.nz PRIVMSG #code4lib :mvandenburg: what time is it there?
+2010-02-24T20:00:17-05:00 :mvandenburg!~mvandenbu@conference/code4lib/x-osrmeroqnocygvoz PRIVMSG #code4lib :7:59 pm
+2010-02-24T20:00:56-05:00 :mvandenburg!~mvandenbu@conference/code4lib/x-osrmeroqnocygvoz PRIVMSG #code4lib :they're about 10 minutes into the 1st period
+2010-02-24T20:01:55-05:00 :snail!~stuart@vuwunicoproxy01.vuw.ac.nz PRIVMSG #code4lib :7:59 pm? the night is young! they must have all crept off someplace with a faster internet connection...
+2010-02-24T20:02:21-05:00 :mvandenburg!~mvandenbu@conference/code4lib/x-osrmeroqnocygvoz PRIVMSG #code4lib :off at the pork pull I think
+2010-02-24T20:02:49-05:00 :jillern!~0c15d86a@gateway/web/freenode/x-bvovlpqerjrnfrzh JOIN :#code4lib
+2010-02-24T20:03:39-05:00 :rangi!~chrisc@leibniz.catalyst.net.nz PRIVMSG #code4lib : /ws 45
+2010-02-24T20:03:42-05:00 :rangi!~chrisc@leibniz.catalyst.net.nz PRIVMSG #code4lib :heh
+2010-02-24T20:04:46-05:00 :snail!~stuart@vuwunicoproxy01.vuw.ac.nz PRIVMSG #code4lib :is a "pork pull" as naughty as it sounds?
+2010-02-24T20:05:17-05:00 :gmcharlt!~gmcharlt@pdpc/support/active/gmcharlt PRIVMSG #code4lib :ask the pig
+2010-02-24T20:05:24-05:00 :jillern!~0c15d86a@gateway/web/freenode/x-bvovlpqerjrnfrzh PRIVMSG #code4lib :do you like bacon?
+2010-02-24T20:06:19-05:00 :snail!~stuart@vuwunicoproxy01.vuw.ac.nz PRIVMSG #code4lib :jillern: not like the pig did...
+2010-02-24T20:06:31-05:00 :dileshni!~chatzilla@conference/code4lib/x-uiakrujunwjhhyoo JOIN :#code4lib
+2010-02-24T20:06:32-05:00 :kennyttu!~0c15d86a@gateway/web/freenode/x-zomfyvztdvrgfxup JOIN :#code4lib
+2010-02-24T20:09:15-05:00 :royt!~royt@conference/code4lib/x-vaagwjxqshbabkjl JOIN :#code4lib
+2010-02-24T20:10:02-05:00 :jaf!~jaf@dhcp184-49-90-240.mra.atl.wayport.net PRIVMSG #code4lib :is anyone in the hospitality suite?
+2010-02-24T20:10:06-05:00 :msilver!~msilver@conference/code4lib/x-ddrnmxitbbfomqha JOIN :#code4lib
+2010-02-24T20:10:11-05:00 :BigD!~dfleming@conference/code4lib/x-pntaetfcjirhdutj JOIN :#code4lib
+2010-02-24T20:10:32-05:00 :mvandenburg!~mvandenbu@conference/code4lib/x-osrmeroqnocygvoz PRIVMSG #code4lib :dunno - not when I went up 15 min ago
+2010-02-24T20:10:41-05:00 :eby!~ebyryan@odie.aadl.org PRIVMSG #code4lib :jaf: think mjg was headed there after bbq
+2010-02-24T20:11:02-05:00 :jaf!~jaf@dhcp184-49-90-240.mra.atl.wayport.net PRIVMSG #code4lib :k - just got back from the bbq, so I think other folks will be getting back shortly
+2010-02-24T20:11:09-05:00 :mvandenburg!~mvandenbu@conference/code4lib/x-osrmeroqnocygvoz PRIVMSG #code4lib :cool
+2010-02-24T20:11:22-05:00 :yo_bj!~b8315ae8@gateway/web/freenode/x-mhtgngmsyhroalsr JOIN :#code4lib
+2010-02-24T20:11:54-05:00 :dileshni!~chatzilla@conference/code4lib/x-uiakrujunwjhhyoo PRIVMSG #code4lib :jaf: I went there 5 minutes ago, no one is up there right now
+2010-02-24T20:12:06-05:00 :edsu!~57526b86@gateway/web/freenode/x-oedlsmjwgvpqzeaq QUIT :Quit: Page closed
+2010-02-24T20:12:08-05:00 :BigD!~dfleming@conference/code4lib/x-pntaetfcjirhdutj PRIVMSG #code4lib :a lot of us just got back from bbq and are headed up
+2010-02-24T20:12:18-05:00 :dileshni!~chatzilla@conference/code4lib/x-uiakrujunwjhhyoo PRIVMSG #code4lib :does the tv up there work?
+2010-02-24T20:13:01-05:00 :eefcee!~efc@dhcp184-49-90-202.mra.atl.wayport.net QUIT :Quit: eefcee
+2010-02-24T20:13:02-05:00 :mvandenburg!~mvandenbu@conference/code4lib/x-osrmeroqnocygvoz PRIVMSG #code4lib :no idea, but had supper at a bar with it on the big screen - thinking of going back for last 2 periods
+2010-02-24T20:13:08-05:00 :erikhatcher!~erik@dhcp184-49-90-106.mra.atl.wayport.net JOIN :#code4lib
+2010-02-24T20:13:51-05:00 :eefcee!~efc@dhcp184-49-90-202.mra.atl.wayport.net JOIN :#code4lib
+2010-02-24T20:14:51-05:00 :msilver!~msilver@conference/code4lib/x-ddrnmxitbbfomqha QUIT :Ping timeout: 265 seconds
+2010-02-24T20:15:06-05:00 :mvandenburg!~mvandenbu@conference/code4lib/x-osrmeroqnocygvoz PRIVMSG #code4lib :going to Ed Boudreax's http://www.edbbq.com/ nice beer list and a big screen
+2010-02-24T20:15:12-05:00 :mvandenburg!~mvandenbu@conference/code4lib/x-osrmeroqnocygvoz QUIT :Quit: mvandenburg
+2010-02-24T20:15:16-05:00 :escowles!~escowles@dhcp184-49-90-6.mra.atl.wayport.net JOIN :#code4lib
+2010-02-24T20:17:02-05:00 :skome!~skome@conference/code4lib/x-kaqkarasdakuzcvd JOIN :#code4lib
+2010-02-24T20:19:27-05:00 :jtgorman!~laptopuse@conference/code4lib/x-dpgtqthunrrnabkc JOIN :#code4lib
+2010-02-24T20:19:44-05:00 :jtgorman!~laptopuse@conference/code4lib/x-dpgtqthunrrnabkc PRIVMSG #code4lib :anyone in here?  anyone know where "windsor B" is?
+2010-02-24T20:19:57-05:00 :jtgorman!~laptopuse@conference/code4lib/x-dpgtqthunrrnabkc PRIVMSG #code4lib :ACTION tried to find the werewolf game
+2010-02-24T20:19:57-05:00 :msilver!~msilver@conference/code4lib/x-xjfopajmvpqvhgls JOIN :#code4lib
+2010-02-24T20:20:00-05:00 :jtgorman!~laptopuse@conference/code4lib/x-dpgtqthunrrnabkc PRIVMSG #code4lib :will try again
+2010-02-24T20:20:21-05:00 :jtgorman!~laptopuse@conference/code4lib/x-dpgtqthunrrnabkc PART #code4lib
+2010-02-24T20:21:20-05:00 :dileshni!~chatzilla@conference/code4lib/x-uiakrujunwjhhyoo QUIT :Ping timeout: 245 seconds
+2010-02-24T20:23:32-05:00 :decasm_!~decasm@conference/code4lib/x-dhzmkigrdlfgbjcl JOIN :#code4lib
+2010-02-24T20:24:14-05:00 :ejlynema!~ejlynema@68.115.157.82 JOIN :#code4lib
+2010-02-24T20:25:47-05:00 :snail!~stuart@vuwunicoproxy01.vuw.ac.nz QUIT :Remote host closed the connection
+2010-02-24T20:26:21-05:00 :sgwmich!~sgwmich@166.137.8.250 QUIT :Quit: Colloquy for iPhone - http://colloquy.mobi
+2010-02-24T20:26:22-05:00 :snail!~stuart@vuwunicoproxy01.vuw.ac.nz JOIN :#code4lib
+2010-02-24T20:26:31-05:00 :sgwmich!~sgwmich@dhcp184-49-90-60.mra.atl.wayport.net JOIN :#code4lib
+2010-02-24T20:27:22-05:00 :yo_bj!~b8315ae8@gateway/web/freenode/x-mhtgngmsyhroalsr QUIT :Quit: Page closed
+2010-02-24T20:27:37-05:00 :sgwmich!~sgwmich@dhcp184-49-90-60.mra.atl.wayport.net PRIVMSG #code4lib :ACTION is twiddling thumbs outside the hosp suite with royt and escowles 
+2010-02-24T20:28:58-05:00 :akorphan!~44739d52@gateway/web/freenode/x-blfcqagbajsmebjh JOIN :#code4lib
+2010-02-24T20:29:11-05:00 :akorphan!~44739d52@gateway/web/freenode/x-blfcqagbajsmebjh PRIVMSG #code4lib :What's the word on the street, Rockapella?
+2010-02-24T20:29:17-05:00 :kennyttu!~0c15d86a@gateway/web/freenode/x-zomfyvztdvrgfxup PRIVMSG #code4lib :hey, someone holler when the hospitality suite is nice and chill
+2010-02-24T20:29:33-05:00 :akorphan!~44739d52@gateway/web/freenode/x-blfcqagbajsmebjh PRIVMSG #code4lib :kennyttu: Just went up there and it was locked up tight as a drum.
+2010-02-24T20:30:05-05:00 :kennyttu!~0c15d86a@gateway/web/freenode/x-zomfyvztdvrgfxup PRIVMSG #code4lib :thx akorphan.  I think I will chill in my room till it's time to chill up there :)
+2010-02-24T20:30:49-05:00 :pmurray!~irchon@166.195.33.241 JOIN :#code4lib
+2010-02-24T20:32:56-05:00 :sgwmich!~sgwmich@dhcp184-49-90-60.mra.atl.wayport.net PRIVMSG #code4lib :ACTION is in the suite
+2010-02-24T20:33:38-05:00 :pmurray!~irchon@166.195.33.241 QUIT :Remote host closed the connection
+2010-02-24T20:35:27-05:00 :ckyauk!~chriswiza@c-24-6-214-221.hsd1.ca.comcast.net JOIN :#code4lib
+2010-02-24T20:36:52-05:00 :skome!~skome@conference/code4lib/x-kaqkarasdakuzcvd QUIT :Quit: Leaving.
+2010-02-24T20:37:08-05:00 :skome!~skome@conference/code4lib/x-judclhaefbatswgx JOIN :#code4lib
+2010-02-24T20:37:09-05:00 :highermath_away!~highermat@drupal.org/user/53667/view JOIN :#code4lib
+2010-02-24T20:38:19-05:00 :eefcee!~efc@dhcp184-49-90-202.mra.atl.wayport.net QUIT :Ping timeout: 246 seconds
+2010-02-24T20:40:10-05:00 :kennyttu!~0c15d86a@gateway/web/freenode/x-zomfyvztdvrgfxup PRIVMSG #code4lib :aiite.  I'll be up to the suite in a bit
+2010-02-24T20:40:39-05:00 :BigD!~dfleming@conference/code4lib/x-pntaetfcjirhdutj PRIVMSG #code4lib :the suite is a lie
+2010-02-24T20:41:30-05:00 :skome!~skome@conference/code4lib/x-judclhaefbatswgx PRIVMSG #code4lib :hospitality suhweeet
+2010-02-24T20:41:33-05:00 :kennyttu!~0c15d86a@gateway/web/freenode/x-zomfyvztdvrgfxup PRIVMSG #code4lib :moist, delicious suite?
+2010-02-24T20:41:47-05:00 :highermath_away!~highermat@drupal.org/user/53667/view QUIT :Ping timeout: 265 seconds
+2010-02-24T20:42:39-05:00 :pmurray!~irchon@166.194.96.182 JOIN :#code4lib
+2010-02-24T20:42:44-05:00 :pmurray!~irchon@166.194.96.182 QUIT :Remote host closed the connection
+2010-02-24T20:43:39-05:00 :mcewens!~0c15d86a@gateway/web/freenode/x-xzulnqqtxtshdfla JOIN :#code4lib
+2010-02-24T20:45:20-05:00 :brendan_bywater!~brendan_b@conference/code4lib/x-lhuimjoxcedqqoef PRIVMSG #code4lib :wow blow out in the hockey game
+2010-02-24T20:45:50-05:00 :asnagy!~Andrew@65.14.229.26 JOIN :#code4lib
+2010-02-24T20:46:09-05:00 :mcewens!~0c15d86a@gateway/web/freenode/x-xzulnqqtxtshdfla QUIT :Client Quit
+2010-02-24T20:46:34-05:00 :asnagy!~Andrew@65.14.229.26 QUIT :Remote host closed the connection
+2010-02-24T20:46:52-05:00 :asnagy!~Andrew@165.215.105.240 JOIN :#code4lib
+2010-02-24T20:47:40-05:00 :asnagy!~Andrew@165.215.105.240 QUIT :Client Quit
+2010-02-24T20:47:48-05:00 :highermath_away!~highermat@drupal.org/user/53667/view JOIN :#code4lib
+2010-02-24T20:48:13-05:00 :sgwmich!~sgwmich@dhcp184-49-90-60.mra.atl.wayport.net PRIVMSG #code4lib :BigD:
+2010-02-24T20:48:26-05:00 :sgwmich!~sgwmich@dhcp184-49-90-60.mra.atl.wayport.net PRIVMSG #code4lib :is a lie
+2010-02-24T20:49:54-05:00 :sgwmich!~sgwmich@dhcp184-49-90-60.mra.atl.wayport.net QUIT :Quit: Colloquy for iPhone - http://colloquy.mobi
+2010-02-24T20:50:26-05:00 :ranti_bbq!~ranti@m1f5e36d0.tmodns.net PRIVMSG #code4lib :hosp. suite is open?
+2010-02-24T20:50:37-05:00 :ranti_bbq!~ranti@m1f5e36d0.tmodns.net NICK :ranti
+2010-02-24T20:51:05-05:00 :drekk!~88989378@gateway/web/freenode/x-atrwjqjrzbddhrwx QUIT :Quit: Page closed
+2010-02-24T20:53:18-05:00 :sgwmich!~sgwmich@dhcp184-49-90-60.mra.atl.wayport.net JOIN :#code4lib
+2010-02-24T20:53:29-05:00 :kennyttu!~0c15d86a@gateway/web/freenode/x-zomfyvztdvrgfxup PRIVMSG #code4lib :chillin in the suite.  it's open.
+2010-02-24T20:55:32-05:00 :ranti!~ranti@m1f5e36d0.tmodns.net PRIVMSG #code4lib :kennyttu: cool. will be there in a few.
+2010-02-24T20:55:54-05:00 :skome!~skome@conference/code4lib/x-judclhaefbatswgx QUIT :Quit: Leaving.
+2010-02-24T21:01:30-05:00 :Baroquem!~Matt@conference/code4lib/x-eviqcykdhwxzrjhv JOIN :#code4lib
+2010-02-24T21:02:06-05:00 :ranti!~ranti@m1f5e36d0.tmodns.net PRIVMSG #code4lib :werewolves++
+2010-02-24T21:03:58-05:00 :eikeon!~eikeon@96.231.224.65 JOIN :#code4lib
+2010-02-24T21:05:10-05:00 :young!~young@conference/code4lib/x-qmkhrhgfnukubfqs JOIN :#code4lib
+2010-02-24T21:05:45-05:00 :young!~young@conference/code4lib/x-qmkhrhgfnukubfqs QUIT :Client Quit
+2010-02-24T21:06:53-05:00 :royt!~royt@conference/code4lib/x-vaagwjxqshbabkjl QUIT :Ping timeout: 240 seconds
+2010-02-24T21:07:36-05:00 :clbean!~clbean@dhcp184-49-90-201.mra.atl.wayport.net JOIN :#code4lib
+2010-02-24T21:08:20-05:00 :jbrinley!jbrinley@12-235-231-243.att-inc.com JOIN :#code4lib
+2010-02-24T21:10:31-05:00 :artunit!~chatzilla@arhyno-8.libf.uwindsor.ca JOIN :#code4lib
+2010-02-24T21:11:36-05:00 :sgwmich!~sgwmich@dhcp184-49-90-60.mra.atl.wayport.net PRIVMSG #code4lib :Suiiiiiiiiiiiiiiiite......
+2010-02-24T21:11:59-05:00 :sgwmich!~sgwmich@dhcp184-49-90-60.mra.atl.wayport.net QUIT :Quit: Colloquy for iPhone - http://colloquy.mobi
+2010-02-24T21:12:01-05:00 :lbjay!~lbjay@conference/code4lib/x-wgfpzcfvwgcqqawv JOIN :#code4lib
+2010-02-24T21:12:07-05:00 :corockliff!~chatzilla@64.147.222.241 QUIT :Ping timeout: 260 seconds
+2010-02-24T21:13:55-05:00 :mjg_!~fircuser@19.sub-97-141-84.myvzw.com PRIVMSG #code4lib :suite is a-rockin'
+2010-02-24T21:14:35-05:00 :kennyttu!~0c15d86a@gateway/web/freenode/x-zomfyvztdvrgfxup PRIVMSG #code4lib :yyyyup
+2010-02-24T21:16:28-05:00 :tbw!~b8315a9b@gateway/web/freenode/x-xklhpwghudkcuirl JOIN :#code4lib
+2010-02-24T21:16:59-05:00 :ckyauk!~chriswiza@c-24-6-214-221.hsd1.ca.comcast.net QUIT :Read error: Connection reset by peer
+2010-02-24T21:17:16-05:00 :tbw!~b8315a9b@gateway/web/freenode/x-xklhpwghudkcuirl QUIT :Client Quit
+2010-02-24T21:17:17-05:00 :eikeon!~eikeon@96.231.224.65 QUIT :Quit: eikeon
+2010-02-24T21:17:20-05:00 :ckyauk!~chriswiza@c-24-6-214-221.hsd1.ca.comcast.net JOIN :#code4lib
+2010-02-24T21:19:15-05:00 :infinity2!~b8315abf@gateway/web/freenode/x-svtwjhxgfljnuqsv JOIN :#code4lib
+2010-02-24T21:21:07-05:00 :infinity2!~b8315abf@gateway/web/freenode/x-svtwjhxgfljnuqsv PRIVMSG #code4lib :exit
+2010-02-24T21:21:16-05:00 :infinity2!~b8315abf@gateway/web/freenode/x-svtwjhxgfljnuqsv QUIT :Client Quit
+2010-02-24T21:22:16-05:00 :infinity2!~b8315abf@gateway/web/freenode/x-tusixkxhesrrpspi JOIN :#code4lib
+2010-02-24T21:22:42-05:00 :ejlynema!~ejlynema@68.115.157.82 QUIT :Ping timeout: 245 seconds
+2010-02-24T21:23:50-05:00 :akorphan!~44739d52@gateway/web/freenode/x-blfcqagbajsmebjh PRIVMSG #code4lib :ping
+2010-02-24T21:26:23-05:00 :ckyauk!~chriswiza@c-24-6-214-221.hsd1.ca.comcast.net QUIT :Quit: Leaving.
+2010-02-24T21:26:33-05:00 :kennyttu!~0c15d86a@gateway/web/freenode/x-zomfyvztdvrgfxup PRIVMSG #code4lib :pong
+2010-02-24T21:26:42-05:00 :anna3lc_!~3lc@conference/code4lib/x-sjatrriajdqiqyeq PRIVMSG #code4lib :i know checkout is at 11.  are we out of the hospitality suite at 11, too?
+2010-02-24T21:26:47-05:00 :akorphan!~44739d52@gateway/web/freenode/x-blfcqagbajsmebjh PRIVMSG #code4lib :ACTION might need more night-coffee
+2010-02-24T21:27:09-05:00 :anna3lc_!~3lc@conference/code4lib/x-sjatrriajdqiqyeq PRIVMSG #code4lib :ACTION wants to use the microwave in there tomorrow / lunchtime
+2010-02-24T21:29:29-05:00 :highermath_away!~highermat@drupal.org/user/53667/view QUIT :Read error: Connection reset by peer
+2010-02-24T21:30:45-05:00 :lbjay!~lbjay@conference/code4lib/x-wgfpzcfvwgcqqawv PRIVMSG #code4lib :are folks still watching hockey in 1115?
+2010-02-24T21:34:29-05:00 :davelester!~daveleste@68.115.157.82 JOIN :#code4lib
+2010-02-24T21:34:43-05:00 :eby!~ebyryan@odie.aadl.org PRIVMSG #code4lib :canada is still winning
+2010-02-24T21:37:25-05:00 :maccabee_!~maccabee@dhcp184-49-90-226.mra.atl.wayport.net JOIN :#code4lib
+2010-02-24T21:38:25-05:00 :highermath_away!~highermat@drupal.org/user/53667/view JOIN :#code4lib
+2010-02-24T21:39:02-05:00 :eikeon!~eikeon@96.231.224.65 JOIN :#code4lib
+2010-02-24T21:39:39-05:00 :sgwmich!~sgwmich@dhcp184-49-90-60.mra.atl.wayport.net JOIN :#code4lib
+2010-02-24T21:40:32-05:00 :sgwmich!~sgwmich@dhcp184-49-90-60.mra.atl.wayport.net QUIT :Client Quit
+2010-02-24T21:43:00-05:00 :mhagedon!~b8315a81@gateway/web/freenode/x-noqxywyqbhwnruhl JOIN :#code4lib
+2010-02-24T21:43:44-05:00 :Baroquem!~Matt@conference/code4lib/x-eviqcykdhwxzrjhv QUIT :Quit: Baroquem
+2010-02-24T21:45:00-05:00 :ranti!~ranti@m1f5e36d0.tmodns.net PRIVMSG #code4lib :lbjay: yep.
+2010-02-24T21:45:04-05:00 :gugek!~Adium@68.115.157.82 JOIN :#code4lib
+2010-02-24T21:45:07-05:00 :gugek!~Adium@68.115.157.82 QUIT :Client Quit
+2010-02-24T21:45:11-05:00 :gugek!~Adium@68.115.157.82 JOIN :#code4lib
+2010-02-24T21:45:53-05:00 :ranti!~ranti@m1f5e36d0.tmodns.net PRIVMSG #code4lib :anna3lc: I don't know, but you can try or ask kclarke for sure.
+2010-02-24T21:50:47-05:00 :wanderingwill!~wandering@dhcp184-49-90-45.mra.atl.wayport.net JOIN :#code4lib
+2010-02-24T21:51:17-05:00 :brendan_bywater!~brendan_b@conference/code4lib/x-lhuimjoxcedqqoef PRIVMSG #code4lib :cool runnings man
+2010-02-24T21:52:59-05:00 :MrDys!~MrDys@conference/code4lib/x-kbxoqwlhfzitebdl JOIN :#code4lib
+2010-02-24T21:53:06-05:00 :nsteenla!~nsteenla@conference/code4lib/x-utaxnbjeknbwwmip JOIN :#code4lib
+2010-02-24T21:53:13-05:00 :nsteenla!~nsteenla@conference/code4lib/x-utaxnbjeknbwwmip QUIT :Client Quit
+2010-02-24T21:53:35-05:00 :sgwmich!~sgwmich@dhcp184-49-90-60.mra.atl.wayport.net JOIN :#code4lib
+2010-02-24T21:54:34-05:00 :sgwmich!~sgwmich@dhcp184-49-90-60.mra.atl.wayport.net NICK :fist_of_justice
+2010-02-24T21:55:18-05:00 :fist_of_justice!~sgwmich@dhcp184-49-90-60.mra.atl.wayport.net QUIT :Client Quit
+2010-02-24T21:56:08-05:00 :jrochkind!~jrochkind@conference/code4lib/x-ausnujvwxmnvklgz JOIN :#code4lib
+2010-02-24T21:57:47-05:00 :mdoran!~0c15d86a@gateway/web/freenode/x-wiwsflwwcibtamzo JOIN :#code4lib
+2010-02-24T22:05:43-05:00 :sgwmich!~sgwmich@dhcp184-49-90-60.mra.atl.wayport.net JOIN :#code4lib
+2010-02-24T22:05:51-05:00 :anna3lc_!~3lc@conference/code4lib/x-sjatrriajdqiqyeq PRIVMSG #code4lib :ranti: thanks yes i will ask kevin.
+2010-02-24T22:06:31-05:00 :anna3lc_!~3lc@conference/code4lib/x-sjatrriajdqiqyeq QUIT :Quit: i sleep, you party
+2010-02-24T22:08:07-05:00 :JodiS!~jodi@pdpc/supporter/student/jodis QUIT :Ping timeout: 260 seconds
+2010-02-24T22:10:36-05:00 :kennyttu!~0c15d86a@gateway/web/freenode/x-zomfyvztdvrgfxup QUIT :Ping timeout: 252 seconds
+2010-02-24T22:13:44-05:00 :kennyttu!~0c15d86a@gateway/web/freenode/x-hzurjniivumfybud JOIN :#code4lib
+2010-02-24T22:13:53-05:00 :kennyttu!~0c15d86a@gateway/web/freenode/x-hzurjniivumfybud PRIVMSG #code4lib :patriotic up in hurr
+2010-02-24T22:14:32-05:00 :ndushay!~naomi@conference/code4lib/x-rpglqyaqrskjjsqf JOIN :#code4lib
+2010-02-24T22:16:52-05:00 :jbrinley!jbrinley@12-235-231-243.att-inc.com QUIT :Ping timeout: 245 seconds
+2010-02-24T22:17:36-05:00 :jaf!~jaf@dhcp184-49-90-240.mra.atl.wayport.net QUIT :Ping timeout: 264 seconds
+2010-02-24T22:17:44-05:00 :schwartzr2!~48fafcfe@gateway/web/freenode/x-dceouegytzwfylyw JOIN :#code4lib
+2010-02-24T22:17:45-05:00 :dchud!~dchud@dhcp184-49-90-22.mra.atl.wayport.net QUIT :Ping timeout: 276 seconds
+2010-02-24T22:20:22-05:00 :escowles!~escowles@dhcp184-49-90-6.mra.atl.wayport.net PART #code4lib
+2010-02-24T22:24:14-05:00 :coxn!tarheelcox@pdpc/supporter/base/tarheelcoxn PRIVMSG #code4lib :@herald add steer that boat for us, will you?
+2010-02-24T22:24:15-05:00 :zoia!zoia@rc98.net PRIVMSG #code4lib :coxn: Error: I can't find steer in my user database. If you didn't give a user name, then I might not know what your user is, and you'll need to identify before this command might work.
+2010-02-24T22:24:23-05:00 :coxn!tarheelcox@pdpc/supporter/base/tarheelcoxn PRIVMSG #code4lib :pewp
+2010-02-24T22:24:28-05:00 :coxn!tarheelcox@pdpc/supporter/base/tarheelcoxn PRIVMSG #code4lib :@herald add coxn steer that boat for us, will you?
+2010-02-24T22:24:28-05:00 :zoia!zoia@rc98.net PRIVMSG #code4lib :coxn: The operation succeeded.
+2010-02-24T22:28:01-05:00 :snail!~stuart@vuwunicoproxy01.vuw.ac.nz QUIT :Remote host closed the connection
+2010-02-24T22:28:34-05:00 :akorphan!~44739d52@gateway/web/freenode/x-blfcqagbajsmebjh QUIT :Ping timeout: 252 seconds
+2010-02-24T22:28:38-05:00 :snail!~stuart@vuwunicoproxy01.vuw.ac.nz JOIN :#code4lib
+2010-02-24T22:30:14-05:00 :erikhatcher!~erik@dhcp184-49-90-106.mra.atl.wayport.net QUIT :Quit: erikhatcher
+2010-02-24T22:32:49-05:00 :ckyauk!~chriswiza@adsl-99-56-58-69.dsl.pltn13.sbcglobal.net JOIN :#code4lib
+2010-02-24T22:33:29-05:00 :akorphan!~44739d52@gateway/web/freenode/x-jkmqrraktraeybhm JOIN :#code4lib
+2010-02-24T22:35:08-05:00 :eefcee!~efc@dhcp184-49-90-202.mra.atl.wayport.net JOIN :#code4lib
+2010-02-24T22:37:43-05:00 :eefcee_!~efc@dhcp184-49-90-202.mra.atl.wayport.net JOIN :#code4lib
+2010-02-24T22:37:45-05:00 :eefcee!~efc@dhcp184-49-90-202.mra.atl.wayport.net QUIT :Read error: Connection reset by peer
+2010-02-24T22:37:51-05:00 :eefcee_!~efc@dhcp184-49-90-202.mra.atl.wayport.net NICK :eefcee
+2010-02-24T22:38:02-05:00 :schwartzr2!~48fafcfe@gateway/web/freenode/x-dceouegytzwfylyw QUIT :Quit: Page closed
+2010-02-24T22:38:48-05:00 :msilver!~msilver@conference/code4lib/x-xjfopajmvpqvhgls QUIT :Quit: ChatZilla 0.9.86 [Firefox 3.5.8/20100202165920]
+2010-02-24T22:39:24-05:00 :mdoran!~0c15d86a@gateway/web/freenode/x-wiwsflwwcibtamzo QUIT :Quit: Page closed
+2010-02-24T22:41:16-05:00 :eefcee!~efc@dhcp184-49-90-202.mra.atl.wayport.net PRIVMSG #code4lib :I am writing about Code4Lib. It feels like IRC is in the C4L DNA. Do you know that there were almost 5000 messages on the channel today (well, yesterday, GMT), by over 160 participants. Wow.
+2010-02-24T22:43:17-05:00 :wickr!~wickr@c-24-21-35-5.hsd1.or.comcast.net PRIVMSG #code4lib :eefcee: wow
+2010-02-24T22:44:52-05:00 :snail!~stuart@vuwunicoproxy01.vuw.ac.nz PRIVMSG #code4lib :eefcee: i think you want '24 hour time-period' otherwise 'day' implies a timezone, and that way leads to madness...
+2010-02-24T22:45:50-05:00 :wtd!~buff@dhcp184-49-90-193.mra.atl.wayport.net PRIVMSG #code4lib :Snail is in light when others are in darkness, and also, he's upside-down.
+2010-02-24T22:45:56-05:00 :eefcee!~efc@dhcp184-49-90-202.mra.atl.wayport.net PRIVMSG #code4lib :I was just browsing the IRC log, which is broken into GMT days. Is GMT madness? I think daylight time anywhere is madness, actually!
+2010-02-24T22:46:27-05:00 :snail!~stuart@vuwunicoproxy01.vuw.ac.nz PRIVMSG #code4lib :wtd: s/upside-down/standing on his head/
+2010-02-24T22:46:42-05:00 :eefcee!~efc@dhcp184-49-90-202.mra.atl.wayport.net PRIVMSG #code4lib :hat on my head, mad I am
+2010-02-24T22:46:54-05:00 :mhagedon!~b8315a81@gateway/web/freenode/x-noqxywyqbhwnruhl QUIT :Ping timeout: 252 seconds
+2010-02-24T22:48:23-05:00 :JodiS!~jodi@conference/code4lib/x-yqikvydyepygovii JOIN :#code4lib
+2010-02-24T22:48:24-05:00 :JodiS!~jodi@conference/code4lib/x-yqikvydyepygovii QUIT :Changing host
+2010-02-24T22:48:24-05:00 :JodiS!~jodi@pdpc/supporter/student/jodis JOIN :#code4lib
+2010-02-24T22:50:31-05:00 :wickr!~wickr@c-24-21-35-5.hsd1.or.comcast.net PRIVMSG #code4lib :JodiS: I'm working on separate pages for the presnetations. hope to be done before tomorrow, but may not get to moving/linking up existing slides
+2010-02-24T22:51:17-05:00 :ndushay!~naomi@conference/code4lib/x-rpglqyaqrskjjsqf PRIVMSG #code4lib :JodiS: two of our presentations are apparently too big to be uploaded.  How embarrassing.  what should I do?
+2010-02-24T22:51:43-05:00 :akorphan!~44739d52@gateway/web/freenode/x-jkmqrraktraeybhm PRIVMSG #code4lib :ndushay: maybe make them into PDFs?
+2010-02-24T22:51:50-05:00 :eby!~ebyryan@odie.aadl.org PRIVMSG #code4lib :or slideshare
+2010-02-24T22:51:55-05:00 :ndushay!~naomi@conference/code4lib/x-rpglqyaqrskjjsqf PRIVMSG #code4lib :akorphan: they ARE pdfs.
+2010-02-24T22:52:02-05:00 :ndushay!~naomi@conference/code4lib/x-rpglqyaqrskjjsqf PRIVMSG #code4lib :lots of pictures.
+2010-02-24T22:52:02-05:00 :akorphan!~44739d52@gateway/web/freenode/x-jkmqrraktraeybhm PRIVMSG #code4lib :OH.
+2010-02-24T22:52:06-05:00 :ndushay!~naomi@conference/code4lib/x-rpglqyaqrskjjsqf PRIVMSG #code4lib :i guess.
+2010-02-24T22:52:08-05:00 :akorphan!~44739d52@gateway/web/freenode/x-jkmqrraktraeybhm PRIVMSG #code4lib :Can you optimize them?
+2010-02-24T22:52:18-05:00 :wickr!~wickr@c-24-21-35-5.hsd1.or.comcast.net PRIVMSG #code4lib :yes, lots of them are on slideshare from last year
+2010-02-24T22:52:18-05:00 :akorphan!~44739d52@gateway/web/freenode/x-jkmqrraktraeybhm PRIVMSG #code4lib :i am not sure how much efficiency that actually gives you in pdf-land
+2010-02-24T22:52:19-05:00 :JodiS!~jodi@pdpc/supporter/student/jodis PRIVMSG #code4lib :wickr++
+2010-02-24T22:52:33-05:00 :ndushay!~naomi@conference/code4lib/x-rpglqyaqrskjjsqf PRIVMSG #code4lib :slideshare?
+2010-02-24T22:52:36-05:00 :wickr!~wickr@c-24-21-35-5.hsd1.or.comcast.net PRIVMSG #code4lib :ndushay: or you could email them to me and I'll get to them later (ryanwick@gmail.com)
+2010-02-24T22:52:41-05:00 :JodiS!~jodi@pdpc/supporter/student/jodis PRIVMSG #code4lib :wickr++
+2010-02-24T22:52:53-05:00 :JodiS!~jodi@pdpc/supporter/student/jodis PRIVMSG #code4lib :ndushay: slideshare.net
+2010-02-24T22:52:59-05:00 :ndushay!~naomi@conference/code4lib/x-rpglqyaqrskjjsqf PRIVMSG #code4lib :wickr: great.
+2010-02-24T22:53:12-05:00 :JodiS!~jodi@pdpc/supporter/student/jodis PRIVMSG #code4lib :but I'd like to see everything hosted at code4lib.org -- if there's a copy at slideshare we can link to that, too
+2010-02-24T22:53:20-05:00 :JodiS!~jodi@pdpc/supporter/student/jodis PRIVMSG #code4lib :weather is looking dire
+2010-02-24T22:53:32-05:00 :clbean!~clbean@dhcp184-49-90-201.mra.atl.wayport.net QUIT :Quit: clbean
+2010-02-24T22:53:32-05:00 :gugek!~Adium@68.115.157.82 QUIT :Ping timeout: 245 seconds
+2010-02-24T22:56:00-05:00 :JodiS!~jodi@pdpc/supporter/student/jodis QUIT :Quit: JodiS
+2010-02-24T22:56:31-05:00 :sgwmich!~sgwmich@dhcp184-49-90-60.mra.atl.wayport.net QUIT :Quit: Colloquy for iPhone - http://colloquy.mobi
+2010-02-24T22:56:54-05:00 :eefcee!~efc@dhcp184-49-90-202.mra.atl.wayport.net PRIVMSG #code4lib :http://www.wordle.net/show/wrdl/1706940/C4L100224
+2010-02-24T22:59:44-05:00 :jaf!~jaf@dhcp184-49-90-240.mra.atl.wayport.net JOIN :#code4lib
+2010-02-24T23:00:21-05:00 :wtd!~buff@dhcp184-49-90-193.mra.atl.wayport.net PRIVMSG #code4lib :Getting 24 K/s on a download.
+2010-02-24T23:01:01-05:00 :akorphan!~44739d52@gateway/web/freenode/x-jkmqrraktraeybhm PRIVMSG #code4lib :i was getting 6k/s during the conf today. It was epic.
+2010-02-24T23:01:16-05:00 :sgwmich!~sgwmich@dhcp184-49-90-60.mra.atl.wayport.net JOIN :#code4lib
+2010-02-24T23:01:22-05:00 :eby!~ebyryan@odie.aadl.org PRIVMSG #code4lib :comcastic
+2010-02-24T23:01:48-05:00 :akorphan!~44739d52@gateway/web/freenode/x-jkmqrraktraeybhm PRIVMSG #code4lib :attwifi_meeting--
+2010-02-24T23:03:31-05:00 :eby!~ebyryan@odie.aadl.org PRIVMSG #code4lib :ranti: success is relative in this case
+2010-02-24T23:03:53-05:00 :ranti!~ranti@m1f5e36d0.tmodns.net PRIVMSG #code4lib :@tweet http://www.wordle.net/show/wrdl/1706940/C4L100224 (via irc#code4lib:eefcee)
+2010-02-24T23:03:54-05:00 :zoia!zoia@rc98.net PRIVMSG #code4lib :ranti: The operation succeeded.
+2010-02-24T23:04:08-05:00 :ranti!~ranti@m1f5e36d0.tmodns.net PRIVMSG #code4lib :eby: ;-)
+2010-02-24T23:04:33-05:00 :JodiS!~jodi@pdpc/supporter/student/jodis JOIN :#code4lib
+2010-02-24T23:04:33-05:00 :zoia!zoia@rc98.net PRIVMSG #code4lib :jrochkind would prefer to never be in the same room with rms ever again
+2010-02-24T23:05:06-05:00 :petercline!~peter@dhcp184-49-90-51.mra.atl.wayport.net JOIN :#code4lib
+2010-02-24T23:07:21-05:00 :kennyttu!~0c15d86a@gateway/web/freenode/x-hzurjniivumfybud PRIVMSG #code4lib :wanted to share this link about library mobile sites: http://musingsaboutlibrarianship.blogspot.com/2010/02/iphone-apps-for-librarians.html
+2010-02-24T23:08:22-05:00 :akorphan!~44739d52@gateway/web/freenode/x-jkmqrraktraeybhm PRIVMSG #code4lib :barbecue++
+2010-02-24T23:08:48-05:00 :wtd!~buff@dhcp184-49-90-193.mra.atl.wayport.net PRIVMSG #code4lib :The vegetarian place was good too.
+2010-02-24T23:09:02-05:00 :akorphan!~44739d52@gateway/web/freenode/x-jkmqrraktraeybhm PRIVMSG #code4lib :Which was it tonight? Rosettas?
+2010-02-24T23:09:48-05:00 :gsf!~gsf@pdpc/supporter/active/gsf JOIN :#code4lib
+2010-02-24T23:09:54-05:00 :infinity2!~b8315abf@gateway/web/freenode/x-tusixkxhesrrpspi PRIVMSG #code4lib :cool thanks for the link
+2010-02-24T23:10:07-05:00 :wtd!~buff@dhcp184-49-90-193.mra.atl.wayport.net PRIVMSG #code4lib :Started with an O.
+2010-02-24T23:10:33-05:00 :akorphan!~44739d52@gateway/web/freenode/x-jkmqrraktraeybhm PRIVMSG #code4lib :wtd: Man, there are plenty of veg places around here....
+2010-02-24T23:14:15-05:00 :kennyttu!~0c15d86a@gateway/web/freenode/x-hzurjniivumfybud PRIVMSG #code4lib :gongggg
+2010-02-24T23:14:16-05:00 :JodiS!~jodi@pdpc/supporter/student/jodis PRIVMSG #code4lib :eefcee: cool wordle!
+2010-02-24T23:21:55-05:00 :lbjay!~lbjay@conference/code4lib/x-wgfpzcfvwgcqqawv QUIT :Ping timeout: 265 seconds
+2010-02-24T23:22:28-05:00 :JodiS!~jodi@pdpc/supporter/student/jodis PRIVMSG #code4lib :wickr: http://docs.google.com/present/view?id=dcw9djh7_172czxzkhds  rsinger's presentation
+2010-02-24T23:22:40-05:00 :JodiS!~jodi@pdpc/supporter/student/jodis PRIVMSG #code4lib :wickr: and example code: http://github.com/rsinger/LinkedLCCN
+2010-02-24T23:22:57-05:00 :gsf!~gsf@pdpc/supporter/active/gsf PRIVMSG #code4lib :robcaSSon++
+2010-02-24T23:23:03-05:00 :gsf!~gsf@pdpc/supporter/active/gsf PRIVMSG #code4lib :robcaSSon++
+2010-02-24T23:24:39-05:00 :maccabee_!~maccabee@dhcp184-49-90-226.mra.atl.wayport.net QUIT :Quit: ~ Trillian Astra - www.trillian.im ~
+2010-02-24T23:30:20-05:00 :lbjay!~lbjay@conference/code4lib/x-wgpmveauseuyxdpm JOIN :#code4lib
+2010-02-24T23:35:16-05:00 :akorphan!~44739d52@gateway/web/freenode/x-jkmqrraktraeybhm PRIVMSG #code4lib :lost, you twist my crazy world up.
+2010-02-24T23:36:22-05:00 :ckyauk!~chriswiza@adsl-99-56-58-69.dsl.pltn13.sbcglobal.net QUIT :Quit: Leaving.
+2010-02-24T23:37:58-05:00 :infinity2!~b8315abf@gateway/web/freenode/x-tusixkxhesrrpspi QUIT :Quit: Page closed
+2010-02-24T23:39:37-05:00 :JodiS!~jodi@pdpc/supporter/student/jodis PRIVMSG #code4lib :wickr: Mashup examples http://www.librarywebchic.net/mashups/ from Karen Coomb's talk
+2010-02-24T23:42:48-05:00 :bigbluehat!~byoung@68.115.157.82 JOIN :#code4lib
+2010-02-24T23:48:01-05:00 :JodiS!~jodi@pdpc/supporter/student/jodis PRIVMSG #code4lib :wickr: Matching dirty data slides: http://www.slideshare.net/ghostmob/matching-dirty-data
+2010-02-24T23:49:27-05:00 :ckyauk!~chriswiza@adsl-99-35-227-118.dsl.pltn13.sbcglobal.net JOIN :#code4lib
+2010-02-24T23:50:09-05:00 :sgwmich!~sgwmich@dhcp184-49-90-60.mra.atl.wayport.net QUIT :Quit: Colloquy for iPhone - http://colloquy.mobi
+2010-02-24T23:50:40-05:00 :JodiS!~jodi@pdpc/supporter/student/jodis PRIVMSG #code4lib :snowbound folks, notice the cheap options of places to stay: http://wiki.code4lib.org/index.php/C4L2010planning:RoommatesRidesEtc#Hostels_and_Cheap_Places_to_Stay
+2010-02-24T23:50:51-05:00 :JodiS!~jodi@pdpc/supporter/student/jodis PRIVMSG #code4lib :the hotel is extending their conference rate as well
+2010-02-24T23:52:09-05:00 :robcaSSon!~b8315a7f@gateway/web/freenode/x-hdffuodbuhrmgmlk JOIN :#code4lib
+2010-02-24T23:56:16-05:00 :gsf!~gsf@pdpc/supporter/active/gsf PRIVMSG #code4lib :robcaSSon++
+2010-02-24T23:59:23-05:00 :robcaSSon!~b8315a7f@gateway/web/freenode/x-hdffuodbuhrmgmlk QUIT :Quit: Page closed
+2010-02-25T00:02:29-05:00 :yvonnef!~b8315a0c@gateway/web/freenode/x-rjekrvppuugyxcxa JOIN :#code4lib
+2010-02-25T00:02:49-05:00 :robcaSSon!~b8315a7f@gateway/web/freenode/x-vpmpnsasvagkmpkg JOIN :#code4lib
+2010-02-25T00:05:28-05:00 :gsf!~gsf@pdpc/supporter/active/gsf PRIVMSG #code4lib :robcaSSon++
+2010-02-25T00:05:30-05:00 :robcaSSon!~b8315a7f@gateway/web/freenode/x-vpmpnsasvagkmpkg PRIVMSG #code4lib :gsf: http://drupalcode.org/viewvc/drupal/contributions/modules/apachesolr/schema.xml?revision=1.7&view=markup
+2010-02-25T00:06:37-05:00 :highermath_away!~highermat@drupal.org/user/53667/view QUIT :Quit: highermath_away
+2010-02-25T00:07:02-05:00 :decasm_!~decasm@conference/code4lib/x-dhzmkigrdlfgbjcl PART #code4lib
+2010-02-25T00:09:06-05:00 :wanderingwill!~wandering@dhcp184-49-90-45.mra.atl.wayport.net QUIT :Read error: Connection reset by peer
+2010-02-25T00:09:18-05:00 :wanderingwill!~wandering@dhcp184-49-90-45.mra.atl.wayport.net JOIN :#code4lib
+2010-02-25T00:10:10-05:00 :Baroquem!~Matt@conference/code4lib/x-eblutxoahzhjncvb JOIN :#code4lib
+2010-02-25T00:12:46-05:00 :sesuncedu!~Adium@71-90-237-237.dhcp.gnvl.sc.charter.com JOIN :#code4lib
+2010-02-25T00:14:36-05:00 :lbjay!~lbjay@conference/code4lib/x-wgpmveauseuyxdpm QUIT :Ping timeout: 265 seconds
+2010-02-25T00:16:18-05:00 :upsce!~leland@dhcp184-49-90-53.mra.atl.wayport.net JOIN :#code4lib
+2010-02-25T00:17:13-05:00 :BigD!~dfleming@conference/code4lib/x-pntaetfcjirhdutj QUIT :Ping timeout: 240 seconds
+2010-02-25T00:20:33-05:00 :JodiS!~jodi@pdpc/supporter/student/jodis QUIT :Ping timeout: 240 seconds
+2010-02-25T00:23:26-05:00 :akorphan!~44739d52@gateway/web/freenode/x-jkmqrraktraeybhm PRIVMSG #code4lib :ping
+2010-02-25T00:23:41-05:00 :MrDys!~MrDys@conference/code4lib/x-kbxoqwlhfzitebdl QUIT :Read error: Connection reset by peer
+2010-02-25T00:24:09-05:00 :MrDys!~MrDys@conference/code4lib/x-zwucgggkmokghozu JOIN :#code4lib
+2010-02-25T00:26:07-05:00 :JodiS!~jodi@conference/code4lib/x-wtpdcawwyhszonxw JOIN :#code4lib
+2010-02-25T00:26:08-05:00 :JodiS!~jodi@conference/code4lib/x-wtpdcawwyhszonxw QUIT :Changing host
+2010-02-25T00:26:08-05:00 :JodiS!~jodi@pdpc/supporter/student/jodis JOIN :#code4lib
+2010-02-25T00:26:39-05:00 :upsce!~leland@dhcp184-49-90-53.mra.atl.wayport.net PART #code4lib
+2010-02-25T00:28:31-05:00 :cwlown!~cwlown@68.115.157.82 JOIN :#code4lib
+2010-02-25T00:30:13-05:00 :cwlown!~cwlown@68.115.157.82 PART #code4lib
+2010-02-25T00:31:02-05:00 :yvonnef!~b8315a0c@gateway/web/freenode/x-rjekrvppuugyxcxa QUIT :Ping timeout: 252 seconds
+2010-02-25T00:31:21-05:00 :kennyttu!~0c15d86a@gateway/web/freenode/x-hzurjniivumfybud QUIT :Quit: Page closed
+2010-02-25T00:33:29-05:00 :sesuncedu!~Adium@71-90-237-237.dhcp.gnvl.sc.charter.com QUIT :Quit: Leaving.
+2010-02-25T00:36:58-05:00 :jaf!~jaf@dhcp184-49-90-240.mra.atl.wayport.net QUIT :Quit: jaf
+2010-02-25T00:37:36-05:00 :robcaSSon!~b8315a7f@gateway/web/freenode/x-vpmpnsasvagkmpkg QUIT :Quit: Page closed
+2010-02-25T00:40:47-05:00 :bigbluehat!~byoung@68.115.157.82 QUIT :Quit: bigbluehat
+2010-02-25T00:43:08-05:00 :akorphan!~44739d52@gateway/web/freenode/x-jkmqrraktraeybhm QUIT :Ping timeout: 252 seconds
+2010-02-25T00:44:45-05:00 :ckyauk!~chriswiza@adsl-99-35-227-118.dsl.pltn13.sbcglobal.net QUIT :Quit: Leaving.
+2010-02-25T00:49:20-05:00 :BigD!~dfleming@conference/code4lib/x-cnqmrkxkwetzhzfa JOIN :#code4lib
+2010-02-25T00:56:34-05:00 :BigD!~dfleming@conference/code4lib/x-cnqmrkxkwetzhzfa QUIT :Quit: Leaving.
+2010-02-25T00:58:40-05:00 :eefcee!~efc@dhcp184-49-90-202.mra.atl.wayport.net PRIVMSG #code4lib :just finished a first draft of my report on C4L for CLIR... can I go to sleep now? http://eric.clst.org/C4L/FirstLook
+2010-02-25T01:07:21-05:00 :ckyauk!~chriswiza@adsl-76-200-139-67.dsl.pltn13.sbcglobal.net JOIN :#code4lib
+2010-02-25T01:07:24-05:00 :gsf!~gsf@pdpc/supporter/active/gsf QUIT :Quit: leaving
+2010-02-25T01:07:44-05:00 :coxn!tarheelcox@pdpc/supporter/base/tarheelcoxn PRIVMSG #code4lib :eefcee: looks good to me
+2010-02-25T01:13:43-05:00 :dileshni!~chatzilla@conference/code4lib/x-esvlbmmifeapeyzu JOIN :#code4lib
+2010-02-25T01:13:47-05:00 :wanderingwill!~wandering@dhcp184-49-90-45.mra.atl.wayport.net QUIT :Quit: wanderingwill
+2010-02-25T01:21:00-05:00 :chris_n!~chris_n@207.245.247.150 JOIN :#code4lib
+2010-02-25T01:22:53-05:00 :davelester!~daveleste@68.115.157.82 QUIT :Ping timeout: 240 seconds
+2010-02-25T01:26:34-05:00 :infinity2!~b8315abf@gateway/web/freenode/x-ynuykrfgbckqkxha JOIN :#code4lib
+2010-02-25T01:26:53-05:00 :davelester!~daveleste@68.115.157.82 JOIN :#code4lib
+2010-02-25T01:31:58-05:00 :MrDys!~MrDys@conference/code4lib/x-zwucgggkmokghozu QUIT :Ping timeout: 256 seconds
+2010-02-25T01:32:28-05:00 :ndushay!~naomi@conference/code4lib/x-rpglqyaqrskjjsqf QUIT :Ping timeout: 248 seconds
+2010-02-25T01:33:00-05:00 :infinity2!~b8315abf@gateway/web/freenode/x-ynuykrfgbckqkxha QUIT :Ping timeout: 252 seconds
+2010-02-25T01:33:00-05:00 :jillern!~0c15d86a@gateway/web/freenode/x-bvovlpqerjrnfrzh QUIT :Ping timeout: 252 seconds
+2010-02-25T01:33:57-05:00 :rsinger!~rsinger@conference/code4lib/x-zqgeupcawqzdozol QUIT :Ping timeout: 245 seconds
+2010-02-25T01:34:05-05:00 :dileshni!~chatzilla@conference/code4lib/x-esvlbmmifeapeyzu QUIT :Ping timeout: 240 seconds
+2010-02-25T01:34:12-05:00 :Baroquem!~Matt@conference/code4lib/x-eblutxoahzhjncvb QUIT :Ping timeout: 265 seconds
+2010-02-25T01:34:23-05:00 :eefcee!~efc@dhcp184-49-90-202.mra.atl.wayport.net QUIT :Ping timeout: 260 seconds
+2010-02-25T01:34:23-05:00 :brendan_bywater!~brendan_b@conference/code4lib/x-lhuimjoxcedqqoef QUIT :Ping timeout: 260 seconds
+2010-02-25T01:34:35-05:00 :wtd!~buff@dhcp184-49-90-193.mra.atl.wayport.net QUIT :Ping timeout: 240 seconds
+2010-02-25T01:34:53-05:00 :jrochkind!~jrochkind@conference/code4lib/x-ausnujvwxmnvklgz QUIT :Ping timeout: 276 seconds
+2010-02-25T01:35:00-05:00 :petercline!~peter@dhcp184-49-90-51.mra.atl.wayport.net QUIT :Ping timeout: 264 seconds
+2010-02-25T01:35:00-05:00 :anarchivist!~anarchivi@unaffiliated/anarchivist QUIT :Ping timeout: 264 seconds
+2010-02-25T01:35:07-05:00 :anarchivist!~anarchivi@unaffiliated/anarchivist JOIN :#code4lib
+2010-02-25T01:35:47-05:00 :petercline!~peter@dhcp184-49-90-51.mra.atl.wayport.net JOIN :#code4lib
+2010-02-25T01:36:12-05:00 :mjg_!~fircuser@19.sub-97-141-84.myvzw.com QUIT :Ping timeout: 264 seconds
+2010-02-25T01:36:20-05:00 :wtd!~buff@dhcp184-49-90-193.mra.atl.wayport.net JOIN :#code4lib
+2010-02-25T01:42:13-05:00 :pkiraly!~pkiraly@DSLve6quo.adsl.datanet.hu JOIN :#code4lib
+2010-02-25T01:45:49-05:00 :verbalhanglider!~verbalhan@c-67-175-129-175.hsd1.il.comcast.net JOIN :#code4lib
+2010-02-25T01:45:57-05:00 :verbalhanglider!~verbalhan@c-67-175-129-175.hsd1.il.comcast.net PART #code4lib
+2010-02-25T01:48:32-05:00 :kiru!~pkiraly@DSLve6quo.adsl.datanet.hu JOIN :#code4lib
+2010-02-25T01:49:05-05:00 :kiru!~pkiraly@DSLve6quo.adsl.datanet.hu QUIT :Client Quit
+2010-02-25T01:49:05-05:00 :pkiraly!~pkiraly@DSLve6quo.adsl.datanet.hu QUIT :Quit: Leaving
+2010-02-25T01:49:23-05:00 :pkiraly!~pkiraly@DSLve6quo.adsl.datanet.hu JOIN :#code4lib
+2010-02-25T01:51:29-05:00 :scolford!~scolford@conference/code4lib/x-fqdqhezqmgnfsjgi JOIN :#code4lib
+2010-02-25T01:54:36-05:00 :MrDys!~MrDys@conference/code4lib/x-tzdhgkmmkgpdjplh JOIN :#code4lib
+2010-02-25T01:57:15-05:00 :chris_n!~chris_n@207.245.247.150 QUIT :Ping timeout: 260 seconds
+2010-02-25T02:00:25-05:00 :verbalhanglider!~verbalhan@c-67-175-129-175.hsd1.il.comcast.net JOIN :#code4lib
+2010-02-25T02:00:40-05:00 :verbalhanglider!~verbalhan@c-67-175-129-175.hsd1.il.comcast.net QUIT :Client Quit
+2010-02-25T02:04:27-05:00 :MrDys!~MrDys@conference/code4lib/x-tzdhgkmmkgpdjplh PRIVMSG #code4lib :@quote random
+2010-02-25T02:04:27-05:00 :zoia!zoia@rc98.net PRIVMSG #code4lib :MrDys: Quote #2120: "<jrochkind> I have long said that the what the terrorists REALLY want is to make us all fly naked." (added by edsu at 05:58 PM, January 14, 2010)
+2010-02-25T02:07:50-05:00 :matts_away!~matts@unaffiliated/matts NICK :matts
+2010-02-25T02:09:22-05:00 :davelester!~daveleste@68.115.157.82 QUIT :Ping timeout: 245 seconds
+2010-02-25T02:25:58-05:00 :scolford!~scolford@conference/code4lib/x-fqdqhezqmgnfsjgi QUIT :Quit: scolford
+2010-02-25T02:27:32-05:00 :emcrens!~AndChat@169.sub-75-201-66.myvzw.com QUIT :Ping timeout: 276 seconds
+2010-02-25T02:31:23-05:00 :MrDys!~MrDys@conference/code4lib/x-tzdhgkmmkgpdjplh QUIT :Ping timeout: 265 seconds
+2010-02-25T02:40:42-05:00 :sibylschaefer!~sibylscha@conference/code4lib/x-blsbqrpodckhwkih JOIN :#code4lib
+2010-02-25T02:41:31-05:00 :edc_fooding!~ecorrado@68.115.157.82 PRIVMSG #code4lib :ACTION missed the hockey game but not the beer
+2010-02-25T02:41:41-05:00 :edc_fooding!~ecorrado@68.115.157.82 NICK :edc
+2010-02-25T02:41:48-05:00 :edc!~ecorrado@68.115.157.82 PRIVMSG #code4lib :@rate hockey beer
+2010-02-25T02:41:50-05:00 :zoia!zoia@rc98.net PRIVMSG #code4lib :edc: hockey: 8.7; beer: 9.4. beer rocks!
+2010-02-25T02:42:26-05:00 :edc!~ecorrado@68.115.157.82 NICK :edc_zzz
+2010-02-25T02:43:01-05:00 :sibylschaefer_!~sibylscha@ip029202.uvm.edu JOIN :#code4lib
+2010-02-25T02:45:07-05:00 :sibylschaefer!~sibylscha@conference/code4lib/x-blsbqrpodckhwkih QUIT :Ping timeout: 246 seconds
+2010-02-25T02:45:08-05:00 :sibylschaefer_!~sibylscha@ip029202.uvm.edu NICK :sibylschaefer
+2010-02-25T02:46:18-05:00 :edc_zzz!~ecorrado@68.115.157.82 QUIT :Quit: edc_zzz
+2010-02-25T02:52:13-05:00 :ckyauk!~chriswiza@adsl-76-200-139-67.dsl.pltn13.sbcglobal.net QUIT :Quit: Leaving.
+2010-02-25T03:02:03-05:00 :davelester!~daveleste@68.115.157.82 JOIN :#code4lib
+2010-02-25T03:03:34-05:00 :hansl!~82e1199c@gateway/web/freenode/x-slmbkmvtapofzfuh JOIN :#code4lib
+2010-02-25T03:05:05-05:00 :hansl!~82e1199c@gateway/web/freenode/x-slmbkmvtapofzfuh QUIT :Client Quit
+2010-02-25T03:06:27-05:00 :davelester!~daveleste@68.115.157.82 QUIT :Ping timeout: 245 seconds
+2010-02-25T03:09:12-05:00 :erikhatcher!~erik@dhcp184-49-90-106.mra.atl.wayport.net JOIN :#code4lib
+2010-02-25T03:16:09-05:00 :ckyauk!~chriswiza@adsl-76-200-133-118.dsl.pltn13.sbcglobal.net JOIN :#code4lib
+2010-02-25T03:16:52-05:00 :danbri!~danbri@ip176-48-210-87.adsl2.static.versatel.nl JOIN :#code4lib
+2010-02-25T03:16:53-05:00 :danbri!~danbri@ip176-48-210-87.adsl2.static.versatel.nl QUIT :Changing host
+2010-02-25T03:16:53-05:00 :danbri!~danbri@unaffiliated/danbri JOIN :#code4lib
+2010-02-25T03:19:18-05:00 :erikhatcher!~erik@dhcp184-49-90-106.mra.atl.wayport.net QUIT :Quit: erikhatcher
+2010-02-25T03:46:58-05:00 :sibylschaefer!~sibylscha@ip029202.uvm.edu QUIT :Quit: sibylschaefer
+2010-02-25T04:05:30-05:00 :snail!~stuart@vuwunicoproxy01.vuw.ac.nz QUIT :Remote host closed the connection
+2010-02-25T04:06:29-05:00 :snail!~stuart@vuwunicoproxy01.vuw.ac.nz JOIN :#code4lib
+2010-02-25T04:12:11-05:00 :ckyauk!~chriswiza@adsl-76-200-133-118.dsl.pltn13.sbcglobal.net QUIT :Quit: Leaving.
+2010-02-25T04:54:50-05:00 :iand!~iand@62.172.77.66 JOIN :#code4lib
+2010-02-25T05:51:08-05:00 :matts!~matts@unaffiliated/matts NICK :matts_away
+2010-02-25T06:01:54-05:00 :clbean!~clbean@dhcp184-49-90-201.mra.atl.wayport.net JOIN :#code4lib
+2010-02-25T06:21:01-05:00 :davelester!~daveleste@68.115.157.82 JOIN :#code4lib
+2010-02-25T06:54:18-05:00 :sesuncedu!~Adium@71-90-237-237.dhcp.gnvl.sc.charter.com JOIN :#code4lib
+2010-02-25T07:08:51-05:00 :eefcee!~efc@dhcp184-49-90-202.mra.atl.wayport.net JOIN :#code4lib
+2010-02-25T07:08:51-05:00 :eefcee!~efc@dhcp184-49-90-202.mra.atl.wayport.net PART #code4lib
+2010-02-25T07:11:24-05:00 :eby!~ebyryan@odie.aadl.org QUIT :*.net *.split
+2010-02-25T07:11:25-05:00 :kat3_drx!~kat3@therealcha0s.net QUIT :*.net *.split
+2010-02-25T07:11:25-05:00 :kshepherd!kim@ec2-174-129-179-33.compute-1.amazonaws.com QUIT :*.net *.split
+2010-02-25T07:11:57-05:00 :eefcee!~efc@dhcp184-49-90-202.mra.atl.wayport.net JOIN :#code4lib
+2010-02-25T07:11:58-05:00 :eefcee!~efc@dhcp184-49-90-202.mra.atl.wayport.net PART #code4lib
+2010-02-25T07:12:22-05:00 :msilver!~msilver@conference/code4lib/x-pooxmexretermuuy JOIN :#code4lib
+2010-02-25T07:12:48-05:00 :davelester!~daveleste@68.115.157.82 QUIT :Quit: davelester
+2010-02-25T07:12:52-05:00 :eefcee!~efc@dhcp184-49-90-202.mra.atl.wayport.net JOIN :#code4lib
+2010-02-25T07:12:52-05:00 :eefcee!~efc@dhcp184-49-90-202.mra.atl.wayport.net PART #code4lib
+2010-02-25T07:14:10-05:00 :eefcee!~efc@dhcp184-49-90-202.mra.atl.wayport.net JOIN :#code4lib
+2010-02-25T07:14:10-05:00 :eefcee!~efc@dhcp184-49-90-202.mra.atl.wayport.net PART #code4lib
+2010-02-25T07:15:11-05:00 :kshepherd!kim@ec2-174-129-179-33.compute-1.amazonaws.com JOIN :#code4lib
+2010-02-25T07:15:26-05:00 :sesuncedu!~Adium@71-90-237-237.dhcp.gnvl.sc.charter.com QUIT :Quit: Leaving.
+2010-02-25T07:15:46-05:00 :kat3_drx!~kat3@therealcha0s.net JOIN :#code4lib
+2010-02-25T07:16:04-05:00 :eby!~ebyryan@odie.aadl.org JOIN :#code4lib
+2010-02-25T07:16:44-05:00 :edsu!~ed@li144-162.members.linode.com JOIN :#code4lib
+2010-02-25T07:16:44-05:00 :zoia!zoia@rc98.net PRIVMSG #code4lib :iNeanderthal
+2010-02-25T07:17:27-05:00 :eefcee!~efc@dhcp184-49-90-202.mra.atl.wayport.net JOIN :#code4lib
+2010-02-25T07:17:52-05:00 :matts_away!~matts@unaffiliated/matts NICK :matts
+2010-02-25T07:20:42-05:00 :msilver!~msilver@conference/code4lib/x-pooxmexretermuuy QUIT :Quit: ChatZilla 0.9.86 [Firefox 3.5.8/20100202165920]
+2010-02-25T07:24:10-05:00 :gmcharlt!~gmcharlt@pdpc/support/active/gmcharlt PRIVMSG #code4lib :@quote random
+2010-02-25T07:24:10-05:00 :zoia!zoia@rc98.net PRIVMSG #code4lib :gmcharlt: Quote #76: "<miker_> Hmmm... positive evolution through isolation and removal of diversity.Â Interesting..." (added by ksclarke at 10:06 AM, December 12, 2005)
+2010-02-25T07:33:46-05:00 :sibylschaefer!~sibylscha@conference/code4lib/x-caqevbcctacaxfpa JOIN :#code4lib
+2010-02-25T07:33:47-05:00 :bigbluehat!~byoung@68.115.157.82 JOIN :#code4lib
+2010-02-25T07:34:07-05:00 :clbean!~clbean@dhcp184-49-90-201.mra.atl.wayport.net PRIVMSG #code4lib :@quote random
+2010-02-25T07:34:07-05:00 :zoia!zoia@rc98.net PRIVMSG #code4lib :clbean: Quote #144: "< tholbroo> OpenURL: If You Weren't Sexy To Start With, You're Screwed." (added by edsu at 02:28 PM, January 25, 2006)
+2010-02-25T07:34:42-05:00 :clbean!~clbean@dhcp184-49-90-201.mra.atl.wayport.net PRIVMSG #code4lib :@weather 28801
+2010-02-25T07:34:43-05:00 :zoia!zoia@rc98.net PRIVMSG #code4lib :clbean: The current temperature in Sunset Mountain, Asheville, North Carolina is 16.5°F (7:33 AM EST on February 25, 2010). Conditions: Overcast. Humidity: 78%. Dew Point: 10.4°F. Windchill: 3.2°F. Pressure: 29.94 in 1013.8 hPa (Rising).  Winter Weather Advisory in effect until 6 am EST Friday...
+2010-02-25T07:35:04-05:00 :clbean!~clbean@dhcp184-49-90-201.mra.atl.wayport.net PRIVMSG #code4lib :brrrrr
+2010-02-25T07:35:46-05:00 :highermath_away!~highermat@drupal.org/user/53667/view JOIN :#code4lib
+2010-02-25T07:36:20-05:00 :yvonnef!~b8315a0c@gateway/web/freenode/x-qxofosfeakhirfqy JOIN :#code4lib
+2010-02-25T07:36:30-05:00 :clbean!~clbean@dhcp184-49-90-201.mra.atl.wayport.net PRIVMSG #code4lib :but weather.gov does say it's a balmy 20 degrees at the airport
+2010-02-25T07:37:46-05:00 :flyingzumwalt!~flyingzum@conference/code4lib/x-negtbbikxxrhvqgw JOIN :#code4lib
+2010-02-25T07:39:38-05:00 :gugek!~Adium@68.115.157.82 JOIN :#code4lib
+2010-02-25T07:40:05-05:00 :jillern!~0c15d86a@gateway/web/freenode/x-bgclfxyiwjbatokt JOIN :#code4lib
+2010-02-25T07:41:26-05:00 :lbjay!~lbjay@adsl-243-182-5.ard.bellsouth.net JOIN :#code4lib
+2010-02-25T07:41:44-05:00 :lbjay!~lbjay@adsl-243-182-5.ard.bellsouth.net PRIVMSG #code4lib :ACTION is chillin at green sage
+2010-02-25T07:43:01-05:00 :jbrinley!~jbrinley@12-235-231-226.att-inc.com JOIN :#code4lib
+2010-02-25T07:43:49-05:00 :jbrinley[1]!jbrinley@12-235-231-241.att-inc.com JOIN :#code4lib
+2010-02-25T07:43:51-05:00 :clbean!~clbean@dhcp184-49-90-201.mra.atl.wayport.net PRIVMSG #code4lib :lbjay handles chillin better than me
+2010-02-25T07:43:55-05:00 :jbrinley!~jbrinley@12-235-231-226.att-inc.com QUIT :Disconnected by services
+2010-02-25T07:43:57-05:00 :jbrinley[1]!jbrinley@12-235-231-241.att-inc.com NICK :jbrinley
+2010-02-25T07:44:15-05:00 :clbean!~clbean@dhcp184-49-90-201.mra.atl.wayport.net PRIVMSG #code4lib :green_sage++
+2010-02-25T07:44:38-05:00 :decasm_!~decasm@conference/code4lib/x-ghvchoixxekiecql JOIN :#code4lib
+2010-02-25T07:44:55-05:00 :decasm_!~decasm@conference/code4lib/x-ghvchoixxekiecql PRIVMSG #code4lib :lbjay: ping
+2010-02-25T07:48:51-05:00 :lbjay!~lbjay@adsl-243-182-5.ard.bellsouth.net PRIVMSG #code4lib :decasm_: its only three blocks, dude
+2010-02-25T07:49:22-05:00 :sibylschaefer!~sibylscha@conference/code4lib/x-caqevbcctacaxfpa QUIT :Quit: sibylschaefer
+2010-02-25T07:49:28-05:00 :lbjay!~lbjay@adsl-243-182-5.ard.bellsouth.net PRIVMSG #code4lib :decasm_: sorry, misread clbean as you
+2010-02-25T07:50:16-05:00 :clbean!~clbean@dhcp184-49-90-201.mra.atl.wayport.net PRIVMSG #code4lib :lbjay: have some more coffee, dude :-P
+2010-02-25T07:50:45-05:00 :decasm_!~decasm@conference/code4lib/x-ghvchoixxekiecql PRIVMSG #code4lib :lbjay: my back is having issues, so i have to skip breakfast
+2010-02-25T07:51:25-05:00 :aarahkahak!~b8315af9@gateway/web/freenode/x-kohkxvorgvcgieee JOIN :#code4lib
+2010-02-25T07:51:59-05:00 :decasm_!~decasm@conference/code4lib/x-ghvchoixxekiecql PART #code4lib
+2010-02-25T07:52:07-05:00 :escowles!~escowles@dhcp184-49-90-6.mra.atl.wayport.net JOIN :#code4lib
+2010-02-25T07:53:00-05:00 :lbjay!~lbjay@adsl-243-182-5.ard.bellsouth.net PRIVMSG #code4lib :<-- stood up
+2010-02-25T07:53:20-05:00 :escowles!~escowles@dhcp184-49-90-6.mra.atl.wayport.net PRIVMSG #code4lib :ACTION sat down
