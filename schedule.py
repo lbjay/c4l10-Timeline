@@ -1,10 +1,12 @@
 #!/usr/bin/env python
+# -*- coding: utf-8 -*-
 
 import sys
 import re
 from rdflib import ConjunctiveGraph, Literal, URIRef
 import lxml
-from datetime import datetime
+import datetime
+from time import mktime
 import namespaces as ns
 
 base_uri = 'http://irc.code4lib.org/'
@@ -18,44 +20,44 @@ events = [
      datetime.datetime(2010, 2, 22, 9, 0), None),
     ('Morning Sessions', 
      datetime.datetime(2010, 2, 22, 9, 0),
-     datetime.datetime(2010, 2, 22, 12, 0)),
+     datetime.datetime(2010, 2, 22, 12, 0), None),
     ('Lunch (on your own)', 
      datetime.datetime(2010, 2, 22, 12, 0),
-     datetime.datetime(2010, 2, 22, 13, 30)),
+     datetime.datetime(2010, 2, 22, 13, 30), None),
     ('Afternoon Sessions', 
      datetime.datetime(2010, 2, 22, 13, 30),
-     datetime.datetime(2010, 2, 22, 16, 30)),
+     datetime.datetime(2010, 2, 22, 16, 30), None),
 
     ('Registration / Breakfast',
      datetime.datetime(2010, 2, 23, 8, 0),
-     datetime.datetime(2010, 2, 23, 9, 0)),
+     datetime.datetime(2010, 2, 23, 9, 0), None),
     ('Orientation / Housekeeping',
      datetime.datetime(2010, 2, 23, 9, 0),
-     datetime.datetime(2010, 2, 23, 9, 15)),
+     datetime.datetime(2010, 2, 23, 9, 15), None),
     ('Keynote #1: Cathy Marshall',
      datetime.datetime(2010, 2, 23, 9, 15),
      datetime.datetime(2010, 2, 23, 10, 0),
      '/conference/2010/marshall'),
-    ('Cloud4Lib'
+    ('Cloud4Lib',
      datetime.datetime(2010, 2, 23, 10, 0),
      datetime.datetime(2010, 2, 23, 10, 20),
      '/conference/2010/frumkin_reese'),
-    ('The Linked Library Data Cloud: Stop talking and start doing'
+    ('The Linked Library Data Cloud: Stop talking and start doing',
      datetime.datetime(2010, 2, 23, 10, 20),
      datetime.datetime(2010, 2, 23, 10, 40),
      '/conference/2010/singer'),
     ('Break',
      datetime.datetime(2010, 2, 23, 10, 40),
      datetime.datetime(2010, 2, 23, 11, 0), None),
-    ('Do It Yourself Cloud Computing with Apache and R'
+    ('Do It Yourself Cloud Computing with Apache and R',
      datetime.datetime(2010, 2, 23, 11, 0),
      datetime.datetime(2010, 2, 23, 11, 20),
      '/conference/2010/dekker'),
-    ('Public Datasets in the Cloud'
+    ('Public Datasets in the Cloud',
      datetime.datetime(2010, 2, 23, 11, 20),
      datetime.datetime(2010, 2, 23, 11, 40),
      '/conference/2010/klien_metz'),
-    ('7 Ways to Enhance Library Interfaces with OCLC Web Services'
+    ('7 Ways to Enhance Library Interfaces with OCLC Web Services',
      datetime.datetime(2010, 2, 23, 11, 40),
      datetime.datetime(2010, 2, 23, 12, 0),
      '/conference/2010/frumkin_reese'),
@@ -66,7 +68,7 @@ events = [
      datetime.datetime(2010, 2, 23, 13, 0),
      datetime.datetime(2010, 2, 23, 13, 20),
      '/conference/2010/bowen'),
-    ('Matching Dirty Data – Yet Another Wheel',
+    (u'Matching Dirty Data – Yet Another Wheel',
      datetime.datetime(2010, 2, 23, 13, 20),
      datetime.datetime(2010, 2, 23, 13, 40),
      '/conference/2010/young_sherwood'),
@@ -105,7 +107,7 @@ events = [
      datetime.datetime(2010, 2, 24, 9, 35),
      datetime.datetime(2010, 2, 24, 9, 55),
      '/conference/2010/sadler'),
-    ('I Am Not Your Mother: Write Your Test Code'.
+    ('I Am Not Your Mother: Write Your Test Code',
      datetime.datetime(2010, 2, 24, 9, 55),
      datetime.datetime(2010, 2, 24, 10, 15),
      '/conference/2010/dushay_mene_keck'),
@@ -189,11 +191,40 @@ events = [
      datetime.datetime(2010, 2, 25, 12, 15), None),
 ]
 
+c4l_base_uri = 'http://code4lib.org'
+c4l_sched_uri = 'http://code4lib.org/conference/2010/schedule'
+
 if __name__ == '__main__':
     g = ConjunctiveGraph()
     ns.bind_graph(g)
     for (title, start, end, uri) in events:
-        print title
+
+        if uri:
+            talkid = URIRef(uri, base=c4l_base_uri)
+            event_type = ns.swc.TalkEvent
+        else:
+            talkid = URIRef("%s#%s" % (c4l_sched_uri, title.replace(' ', '_')))
+            if title == 'Break':
+                event_type = ns.swc.BreakEvent
+            elif title in ['Lunch', 'Breakfast']:
+                event_type = ns.swc.MealEvent
+            elif title.startswith('Lightnight'):
+                event_type = ns.swc.TalkEvent
+            else:
+                event_type = ns.swc.OrganizedEvent
+
+        startseconds = int(mktime(start.timetuple()))
+        endseconds = int(mktime(end.timetuple()))
+        start = Literal(startseconds, datatype=ns.xsd.int)
+        end = Literal(endseconds, datatype=ns.xsd.int)
+        title = Literal(title)
+        print (talkid, start, end, title)
+
+#        g.add((talkid, rdfs.type, event_type))
+#        g.add((talkid, rdfs.type, ical.Vevent))
+#        g.add((talkid, dce.title, title))
+#        g.add((
+
             
 
 
