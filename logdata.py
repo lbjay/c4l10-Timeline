@@ -7,6 +7,8 @@ import uuid
 from rdflib import ConjunctiveGraph, Literal, URIRef
 from optparse import OptionParser
 import urllib
+from datetime import datetime
+from time import mktime
 from namespaces import *
 
 siocurl = 'http://irc.code4lib.org/code4lib'
@@ -19,9 +21,11 @@ def parse_entry(line):
     (tstamp, user, type, channel, content) = re.split('\s+', line, 4)
     user = user[1:].split('!~')[0]
     tstamp = tstamp[:-6]
+    dt = datetime.strptime(tstamp, "%Y-%m-%dT%H:%M:%S")
+    epochtime = int(mktime(dt.timetuple()))
     content = content[1:]
     return {
-        'tstamp': Literal(tstamp, datatype=xsd.date),
+        'tstamp': Literal(epochtime, datatype=xsd.int),
         'user': user,
         'type': type,
         'postid': URIRef('msg/%s' % uuid.uuid1(), base=base_uri),
@@ -48,6 +52,7 @@ if __name__ == '__main__':
                 print >>sys.stderr, line
                 raise
             if e['type'] != 'PRIVMSG': continue
+            print e
             if opts.mode == 'load':
                 g.add((e['postid'], rdf.type, sioc.Post))
                 g.add((e['postid'], sioc.has_creator, e['userid']))
@@ -60,7 +65,6 @@ if __name__ == '__main__':
                     (username,) = m.groups()
                     addressed_to_user = URIRef('http://irc.code4lib.org/user/%s' % username, base=base_uri)
                     if list(g.subject_predicates(addressed_to_user)):
-                        print e['postid'], addressed_to_user
                         g.add((e['postid'], sioc.addressed_to, addressed_to_user))
             elif opts.mode == 'users':
                 if not (list(g.subject_predicates(e['userid']))):
