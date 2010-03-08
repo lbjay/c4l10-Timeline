@@ -3,8 +3,9 @@
 {% block title %}Posts{% end %}
 
 {% block content %}
+    {{ str(len(posts)) }}
     {% for p in posts %}
         <div class="post">
     {% end %}
-{% block %}
+{% end %}
 

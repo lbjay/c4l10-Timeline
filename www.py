@@ -18,7 +18,6 @@ g = ConjunctiveGraph('Sleepycat')
 g.open('store', create=False)
 
 class BaseHandler(tornado.web.RequestHandler):
-
     def render_posts(self, posts, format='html'):
         output = []
         for p in posts:
@@ -34,7 +33,7 @@ class BaseHandler(tornado.web.RequestHandler):
             self.set_header('Content-Type', 'application/json')
             self.write(simplejson.dumps(posts))
         elif format == 'html':
-            t = loader('posts.html')
+            t = loader.load('posts.html')
             self.write(t.generate(posts=output))
 
     def posts_by_user(self, username):
