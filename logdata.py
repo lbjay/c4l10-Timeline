@@ -47,12 +47,11 @@ if __name__ == '__main__':
         lines = raw.readlines()
         for line in lines:
             try:
-                e = parse_entry(line)
+                e = parse_entry(line.decode('utf-8', 'ignore'))
             except:
                 print >>sys.stderr, line
                 raise
             if e['type'] != 'PRIVMSG': continue
-            print e
             if opts.mode == 'load':
                 g.add((e['postid'], rdf.type, sioc.Post))
                 g.add((e['postid'], sioc.has_creator, e['userid']))
