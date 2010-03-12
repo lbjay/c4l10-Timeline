@@ -19,3 +19,5 @@ def bind_graph(graph):
             continue
         graph.bind(k, v)
 
+def nsdict():
+    return dict([(k,v) for k,v in vars().items() if isinstance(v, Namespace)])

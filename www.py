@@ -9,7 +9,7 @@ import tornado.ioloop
 import tornado.web
 from tornado import template
 
-from namespaces import *
+import namespaces as ns
 
 base_uri = 'http://irc.code4lib.org/'
 loader = template.Loader('/home/jluker/projects/c4l10_timeline/templates')
@@ -21,12 +21,12 @@ class BaseHandler(tornado.web.RequestHandler):
     def render_posts(self, posts, format='html'):
         output = []
         for p in posts:
-            content = list(g.objects(p, sioc.content))[0]
-            created = list(g.objects(p, dct.created))[0]
-            user = list(g.objects(p, sioc.has_creator))[0]
+            content = list(g.objects(p, ns.sioc.content))[0]
+            created = list(g.objects(p, ns.dct.created))[0]
+            user = list(g.objects(p, ns.sioc.has_creator))[0]
             output.append(dict(
                 content=content, 
-                user=created, 
+                user=user, 
                 datestamp=created,
             ))
         if format == 'json':
@@ -38,7 +38,7 @@ class BaseHandler(tornado.web.RequestHandler):
 
     def posts_by_user(self, username):
         user_uri = URIRef("%suser/%s" % (base_uri, username))
-        return list(g.subjects(sioc.has_creator, user_uri))
+        return list(g.subjects(ns.sioc.has_creator, user_uri))
         pass
 
     def posts_by_date(self, start_dt):
@@ -52,12 +52,13 @@ class BaseHandler(tornado.web.RequestHandler):
 
     def posts_by_epochrange(self, start, end):
         print "%i, %i" % (start, end)
-        nsinit = { 'sioc': sioc, 'dct': dct }
-        bindings = { 'start': start, 'end': end }
-        sparql = """SELECT ?postid
-                    WHERE { }
+        nsinit = { 'sioc': ns.sioc, 'dct': ns.dct } # ns.nsdict()
+        bindings = { '?start': start, '?end': end }
+        sparql = """SELECT ?postid WHERE { ?x a sioc:Post .  ?x dct:created ?created FILTER(?created >= ?start && ?created < ?end) 
+                    }
                 """
-        return list(self.sparql_result(sparql, bindings))
+        result = g.query(sparql, initBindings=bindings, initNs=nsinit)
+        self.write(str(len(list(result))))
 
     def sparql_result(self, sparql):
         pass
