@@ -6,6 +6,10 @@
     {{ str(len(posts)) }}
     {% for p in posts %}
         <div class="post">
+            <span class="datestamp">{{ p.datestamp }}</span>
+            <span class="user">{{ p.user }}</span>
+            <span class="content">{{ p.content }}</span>
+        </div>
     {% end %}
 {% end %}
 
