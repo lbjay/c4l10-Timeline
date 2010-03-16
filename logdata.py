@@ -21,13 +21,11 @@ base_uri = 'http://irc.code4lib.org/'
 
 def parse_entry(line):
     (tstamp, user, type, channel, content) = re.split('\s+', line, 4)
-    user = user[1:].split('!~')[0]
+    user = re.split('!~?', user[1:])[0]
     tstamp = tstamp[:-6]
     dt = datetime.strptime(tstamp, "%Y-%m-%dT%H:%M:%S")
-    epochtime = int(mktime(dt.timetuple()))
     content = content[1:]
     return {
-        #'tstamp': Literal(epochtime, datatype=xsd.int),
         'tstamp': Literal(dt, datatype=xsd.date),
         'user': user,
         'type': type,
