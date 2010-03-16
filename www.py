@@ -21,12 +21,18 @@ class BaseHandler(tornado.web.RequestHandler):
         for p in posts:
             try:
                 content = list(g.objects(p, ns.sioc.content))[0]
-                created = list(g.objects(p, ns.dct.created))[0]
+                created = datetime.strptime(
+                    list(g.objects(p, ns.dct.created))[0],
+                    '%Y-%m-%d %H:%M:%S')
+                timepart = created.strftime('%H:%M:%S')
                 user = list(g.objects(p, ns.sioc.has_creator))[0]
+                username = user.split('/')[-1]
                 output.append({
                     'content': content, 
                     'user': user, 
-                    'datestamp': created,
+                    'username': username,
+                    'posturi': p,
+                    'time': timepart,
                 })
             except IndexError:
                 print p
@@ -47,13 +53,6 @@ class BaseHandler(tornado.web.RequestHandler):
         return self.posts_by_daterange(start_dt, end_dt)
 
     def posts_by_daterange(self, start_dt, end_dt):
-        startepoch = int(mktime(start_dt.timetuple()))
-        endepoch = int(mktime(end_dt.timetuple()))
-        return self.posts_by_epochrange(start_dt, end_dt)
-
-    def posts_by_epochrange(self, start, end):
-        nsinit = { 'sioc': ns.sioc, 'dct': ns.dct, 'rdf': ns.rdf, 'xsd': ns.xsd } # ns.nsdict()
-        #bindings = { '?start': start, '?end': end }
         sparql = """SELECT ?p WHERE 
             { ?p rdf:type sioc:Post . 
               ?p dct:created ?created 
@@ -61,12 +60,13 @@ class BaseHandler(tornado.web.RequestHandler):
                 ?created >= xsd:date('%s') && 
                 ?created < xsd:date('%s')
               ) 
-            }""" % (start, end)
-        posts = g.query(sparql, initNs=nsinit) # , initBindings=bindings)
-        return [x[0] for x in posts]
+            }""" % (start_dt, end_dt)
+        return self.sparql_result(sparql)
 
     def sparql_result(self, sparql):
-        pass
+        nsinit = { 'sioc': ns.sioc, 'dct': ns.dct, 'rdf': ns.rdf, 'xsd': ns.xsd } # ns.nsdict()
+        posts = g.query(sparql, initNs=nsinit) 
+        return [x[0] for x in posts]
         
 class TestHandler(BaseHandler):
     def get(self, foo):
@@ -96,18 +96,25 @@ class EpochRangePostsHandler(BaseHandler):
         posts = self.posts_by_epochrange(int(startepoch), int(endepoch))
         self.render_posts(posts, format)
 
+class ConfBackchannelHandler(BaseHandler):
+    def get(self, talk, format='html'):
+
 class DefaultPostsHandler(BaseHandler):
     def get(self):
         today = datetime.today().strftime('%Y-%m-%d')
         self.redirect('/posts/date/%s' % today)
 
+formats = ['json','html','rdf','n3']
+format_pattern = '|'.join(formats)
+
 application = tornado.web.Application([
     (r"/log/(\w+)", TestHandler),
     (r"/posts/?$", DefaultPostsHandler),
-    (r"/posts/user/(\w+)\.?(\w+)?$", UserPostsHandler),
-    (r"/posts/date/([\d\-]{10})/?$", DatePostsHandler),
-    (r"/posts/date/([\d\-]{10}):([\d\-]{10})/?$", DateRangePostsHandler),
+    (r"/posts/user/(\w+)\.?(%s)?$" % format_pattern, UserPostsHandler),
+    (r"/posts/date/([\d\-]{10})\.?(%s)?$" % format_pattern, DatePostsHandler),
+    (r"/posts/date/([\d\-]{10}):([\d\-]{10})\.?(%s)?$" % format_pattern, DateRangePostsHandler),
     (r"/posts/epoch/(\d+):(\d+)/?$", EpochRangePostsHandler),
+    (r"/c4l10/(\w+)\.?(%s)?" % format_pattern, ConfBackchannelHandler),
 ])
 
 if __name__ == "__main__":

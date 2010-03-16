@@ -5,8 +5,8 @@
 {% block content %}
     {% for p in posts %}
         <div class="post">
-            <span class="datestamp">{{ p['datestamp'] }}</span>
-            <span class="user">{{ p['user'] }}</span>
+            <span class="datestamp">[<a href="{{ p['posturi'] }}">{{ p['time'] }}</a>]</span>
+            <span class="user"><a href="{{ p['user'] }}">{{ p['username'] }}</a></span>
             <span class="content">{{ p['content'] }}</span>
         </div>
     {% end %}
