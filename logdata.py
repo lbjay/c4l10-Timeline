@@ -9,13 +9,15 @@ from optparse import OptionParser
 import urllib
 from datetime import datetime
 from time import mktime
+
 from namespaces import *
+from graphstore import g
 
 siocurl = 'http://irc.code4lib.org/code4lib'
 base_uri = 'http://irc.code4lib.org/'
 
-g = rdflib.ConjunctiveGraph('Sleepycat')
-g.open('store', create=True)
+#g = rdflib.ConjunctiveGraph('Sleepycat')
+#g.open('sleepy', create=True)
 
 def parse_entry(line):
     (tstamp, user, type, channel, content) = re.split('\s+', line, 4)
@@ -25,7 +27,8 @@ def parse_entry(line):
     epochtime = int(mktime(dt.timetuple()))
     content = content[1:]
     return {
-        'tstamp': Literal(epochtime, datatype=xsd.int),
+        #'tstamp': Literal(epochtime, datatype=xsd.int),
+        'tstamp': Literal(dt, datatype=xsd.date),
         'user': user,
         'type': type,
         'postid': URIRef('msg/%s' % uuid.uuid1(), base=base_uri),
@@ -68,6 +71,7 @@ if __name__ == '__main__':
             elif opts.mode == 'users':
                 if not (list(g.subject_predicates(e['userid']))):
                     g.add((e['userid'], rdf.type, sioc.User))
+    g.commit()
             
 
     

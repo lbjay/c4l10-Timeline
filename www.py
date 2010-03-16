@@ -10,12 +10,10 @@ import tornado.web
 from tornado import template
 
 import namespaces as ns
+from graphstore import g
 
 base_uri = 'http://irc.code4lib.org/'
 loader = template.Loader('/home/jluker/projects/c4l10_timeline/templates')
-
-g = ConjunctiveGraph('Sleepycat')
-g.open('store', create=False)
 
 class BaseHandler(tornado.web.RequestHandler):
     def render_posts(self, posts, format='html'):
@@ -25,11 +23,11 @@ class BaseHandler(tornado.web.RequestHandler):
                 content = list(g.objects(p, ns.sioc.content))[0]
                 created = list(g.objects(p, ns.dct.created))[0]
                 user = list(g.objects(p, ns.sioc.has_creator))[0]
-                output.append(dict(
-                    content=content, 
-                    user=user, 
-                    datestamp=created,
-                ))
+                output.append({
+                    'content': content, 
+                    'user': user, 
+                    'datestamp': created,
+                })
             except IndexError:
                 print p
                 raise
@@ -51,7 +49,7 @@ class BaseHandler(tornado.web.RequestHandler):
     def posts_by_daterange(self, start_dt, end_dt):
         startepoch = int(mktime(start_dt.timetuple()))
         endepoch = int(mktime(end_dt.timetuple()))
-        return self.posts_by_epochrange(startepoch, endepoch)
+        return self.posts_by_epochrange(start_dt, end_dt)
 
     def posts_by_epochrange(self, start, end):
         nsinit = { 'sioc': ns.sioc, 'dct': ns.dct, 'rdf': ns.rdf, 'xsd': ns.xsd } # ns.nsdict()
@@ -60,8 +58,8 @@ class BaseHandler(tornado.web.RequestHandler):
             { ?p rdf:type sioc:Post . 
               ?p dct:created ?created 
               FILTER(
-                ?created >= xsd:int(%s) && 
-                ?created < xsd:int(%s)
+                ?created >= xsd:date('%s') && 
+                ?created < xsd:date('%s')
               ) 
             }""" % (start, end)
         posts = g.query(sparql, initNs=nsinit) # , initBindings=bindings)
