@@ -1,5 +1,8 @@
 from rdflib import Namespace
  
+base_uri = 'http://irc.code4lib.org/'
+c4l10_base_uri = 'http://irc.code4lib.org/c4l10/'
+
 foaf = Namespace('http://xmlns.com/foaf/0.1/')
 dce = Namespace('http://purl.org/dc/elements/1.1/')
 dct = Namespace('http://purl.org/dc/terms/')

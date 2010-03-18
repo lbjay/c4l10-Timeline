@@ -7,12 +7,11 @@ from rdflib import ConjunctiveGraph, Literal, URIRef
 import lxml
 import datetime
 from time import mktime
+
 import namespaces as ns
+from graphstore import g
 
 base_uri = 'http://irc.code4lib.org/'
-
-#g = rdflib.ConjunctiveGraph('Sleepycat')
-#g.open('store', create=True)
 
 events = [
     ('Registration / coffee', 
@@ -265,22 +264,17 @@ events = [
      'wrapup_day3'),
 ]
 
-c4l10_base_uri = 'http://irc.code4lib.org/posts/c4l10/'
-
 if __name__ == '__main__':
-    g = ConjunctiveGraph()
-    ns.bind_graph(g)
     for (title, etype, start, end, shortname) in events:
-        talkid = URIRef(shortname, base=c4l10_base_uri)
-        start = Literal(startseconds, datatype=ns.xsd.int)
-        end = Literal(endseconds, datatype=ns.xsd.int)
+        talkid = URIRef(shortname, base=ns.c4l10_base_uri)
         title = Literal(title)
         print (talkid, etype, start, end, title)
 
-#        g.add((talkid, rdfs.type, event_type))
-#        g.add((talkid, rdfs.type, ical.Vevent))
-#        g.add((talkid, dce.title, title))
-#        g.add((
+        g.add((talkid, rdfs.type, etype))
+        g.add((talkid, rdfs.type, ical.Vevent))
+        g.add((talkid, dce.title, title))
+        g.add((talkid, ical.Dtsart, start))
+
 
             
 

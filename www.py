@@ -12,7 +12,6 @@ from tornado import template
 import namespaces as ns
 from graphstore import g
 
-base_uri = 'http://irc.code4lib.org/'
 loader = template.Loader('/home/jluker/projects/c4l10_timeline/templates')
 
 class BaseHandler(tornado.web.RequestHandler):
@@ -98,6 +97,7 @@ class EpochRangePostsHandler(BaseHandler):
 
 class ConfBackchannelHandler(BaseHandler):
     def get(self, talk, format='html'):
+        
 
 class DefaultPostsHandler(BaseHandler):
     def get(self):
